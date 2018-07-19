@@ -270,6 +270,21 @@
 		right: 10px;
 	}
 
+/*/MI PERFIL/*/
+	main#perfil article{
+		margin: 2.5%;
+		margin-top: 6%;
+		height: 465px;
+		padding: 20px;
+		background-color: #333;
+		background-size: all;
+		border-radius: 10px;
+	}
+
+	main#perfil h1{
+		text-align: center;
+	}
+
 /*/EDITAR USUARIO/*/
 	
 
@@ -340,21 +355,25 @@
 		padding: 10px;
 		vertical-align: top;
 	}
-	main#game tr#act{
-		vertical-align: top;
+	main#game td#act ul{
+		list-style: none;
 		display: flex;
-		overflow-y: hidden;
+		justify-content: flex-start;
 		overflow-x: scroll;
-		height: 45px;
+		padding: 0;
+		margin: 0;
 		width: 500px;
+		height: 60px;
 	}
-	main#game tr#valor{
-		vertical-align: top;
-		display: grid;
+	main#game td#valor ul{
+		list-style: none;
+		display: flex;
+		flex-direction: column;
 		overflow-y: scroll;
-		overflow-x: hidden;
-		height: 50px;
+		padding: 0;
+		margin: 0;
 		width: 50px;
+		height: 50px;
 	}
 	main#game article{
 		margin: 10px;
@@ -400,4 +419,47 @@
 		float: right;
 		top: 30px;
 		right: 29px;
+	}
+
+/*/MIS JUEGOS/*/
+	main#mygames{
+		position: relative;
+		top: 20px;
+	}
+	main#mygames table{
+		position: relative;
+		left: 5px;
+		top: 5px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	main#mygames th{
+		padding-left: 20px;
+		font-size: 25px;
+	}
+	main#mygames td#img{
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		background-repeat: no-repeat;
+		width: 280px;
+		height: 155px;
+		background-image: url(http://via.placeholder.com/280x154);
+	}
+	main#mygames td#img img{
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+	}
+	main#mygames td#text{
+		background-color: #222;
+		padding: 10px;
+		text-align: justify;
+	}
+	main#mygames article{
+		margin: 20px;
+		padding: 10px;
+		margin-bottom: 47px;
+		background-color: #333;
+		border-radius: 10px;
 	}
