@@ -1,0 +1,46 @@
+body{
+	background-color: #000000;
+	color: #ffffff;
+}
+img#pentagramImage{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+footer{
+	position: absolute;
+	right: 20px;
+	bottom: 0px;
+}
+h1{
+	font-family: "Candara";
+	padding-left: 20px;
+}
+h2{
+	font-family: "Georgia";
+	text-align: Center;
+	padding-top: 40px;
+}
+h3{
+	font-family: "Gabriola";
+	padding-left: 40px;
+}
+h6{
+	font-family: "Cambria";
+}
+a:link{
+	color: #ffffff;
+	text-decoration: none;
+}
+a:visited{
+	color: #ffffff;
+	text-decoration: none;
+}
+a:active{
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}

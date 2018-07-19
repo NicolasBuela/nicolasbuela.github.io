@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: "Georgia";
+	text-align: Center;
+}
+table{
+	border-collapse: collapse;
+}
+tr#mes{
+	height: 50px;
+	font-size: 40px;
+	text-align: left;
+}
+tr#sem{
+	height: 20px;
+}
+tr{
+	height: 114px;
+}
+th,td{
+	min-width: 192px;
+}
+td{
+	font-size: 60px;
+	vertical-align: top;
+	text-align: left;
+}
+a{
+	color: currentColor;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: line-through;
+}

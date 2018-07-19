@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	border: none;
+	color: white;
+	background-color: black;
+	font-family: "Gabriola";
+}
+header{
+	font-size: 1.1vw;
+	font-family: "Candara";
+	padding-left: 20px;
+}
+p{
+	position: relative;
+	font-size: 25px;
+}
+table{
+	position: relative;
+	font-family: "Georgia";
+	text-align: center;
+	border: 1px;
+}
+footer{
+	width: 99.5%;
+	font-size: 15px;
+	position: absolute;
+	bottom: 5px;
+	text-align: right;
+}
+hr{
+	border: 0px;
+	color: currentColor;
+	background-color: currentColor;
+	height: 3px;
+}
+hr#footer{
+	width: 100%;
+	position: absolute;
+	bottom: 25px;
+}
+a{
+	color: currentColor;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: line-through;
+}
+td#par{
+	background-color: #808080;
+}
+td#imp{
+	background-color: #696969;
+}
+th{
+	background-color: #3A3A3A;
+}
+img{
+	max-width: 190px;
+	position: absolute;
+	top: -20px;
+	right: 0px;
+}

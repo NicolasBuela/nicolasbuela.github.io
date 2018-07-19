@@ -1,0 +1,159 @@
+@charset "UTF-8";
+ul, ol {
+	list-style:none;
+}
+
+.nav > li {
+	float: left;
+	width: 180px;
+}
+
+.nav li a {
+	background-color: #EEE;
+	color: #000;
+	text-decoration: none;
+	padding: 5% 50%;
+	display: block;
+}
+
+.nav li a:hover {
+	background-color: gray;
+}
+
+.nav li ul.Verano {
+	display: none;
+	position: absolute;
+	width: 180px;
+	left: 16.1%;
+}
+
+.nav li ul.Otoño {
+	display: none;
+	position: absolute;
+	width: 180px;
+	left: 32.1%;
+}
+
+.nav li ul.Invierno {
+	display: none;
+	position: absolute;
+	width: 180px;
+	left: 48.2%;
+}
+
+.nav li ul.Primavera {
+	display: none;
+	position: absolute;
+	width: 180px;
+	left: 64.3%;
+}
+
+.nav li:hover > ul {
+	display: block;
+}
+
+body{
+	background-image: url(../gfx/bg/bgotoño.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 21%;
+}
+
+header{
+	position: absolute;
+	left: 1%;
+	background: #CA8282;
+	width: 98%;
+	top: 1%;
+	z-index: 2;
+}
+
+h1{
+	position: relative;
+	left: 3%;
+}
+
+nav{
+	position: absolute;
+	top: 10%;
+	left: -2.1%;
+	z-index: 3;
+}
+
+section#back{
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	background: #FFF;
+	border-radius: 2%;
+	width: 96%;
+	height: 97%;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+section#text{
+	position: absolute;
+	top: 20%;
+	left: 3%;
+	width: 94%;
+	opacity: 1;
+	z-index: 2;
+	text-align: justify;
+}
+
+div{
+	position: absolute;
+	bottom: 10%;
+	left: 3%;
+	z-index: 2;
+}
+
+footer#back{
+	position: absolute;
+	bottom: 4%;
+	right: 0%;
+	background: #CA8282;
+	width: 60%;
+	height: 4%;
+	z-index: 2;
+}
+
+footer#text{
+	position: absolute;
+	bottom: 1%;
+	right: 1%;
+	z-index: 3;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+div#img{
+	background-image: url("../gfx/gif/bgotoño.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+div#png{
+	background-image: url("../gfx/extras/Pergamino.jpg");
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 22%;
+	left: 2%;
+	width: 96%;
+	height: 58%;
+	z-index: 0;
+}
