@@ -67,9 +67,12 @@
 			<center>
 				<div class="formBack">
 					<form>
-						<input type="text" name="Nombre" placeholder="Nombre">
+						<span id="title">Iniciar Sesión</span>
 						<br>
-						<input type="password" name="Contraseña" placeholder="Contraseña">
+						<input type="email" name="E-mail" placeholder="E-mail" required>
+						<br>
+						<input type="password" name="Contraseña" placeholder="Contraseña" minlength="8" maxlength="24"
+						pattern="[A-Za-z0-9]" required>
 						<br>
 						<span id="sesion">
 							<input type="checkbox" name="Sesión" value="Sesión iniciada">

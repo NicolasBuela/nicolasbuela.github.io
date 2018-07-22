@@ -1,0 +1,155 @@
+(index.html) Inicio
+	nav
+		Botón1 45x45 -> index.html
+		Botón2 150x45 -> juegos.html
+		Botón3 150x45 -> contacto.html
+		Botón4 150x45 -> login.html
+		Botón4 Hover
+			item1 -> perfil.html
+			item2 -> wishlist.html
+			item3 -> carrito.html
+			item4 -> misjuegos.html
+
+	body
+		Cualquier img de juego -> juego.html
+		texto (Ver más) -> juegos.html
+
+(juegos.html)Listado De Juegos
+	nav
+		Botón1 45x45 -> index.html
+		Botón2 150x45 -> juegos.html
+		Botón3 150x45 -> contacto.html
+		Botón4 150x45 -> login.html
+		Botón4 Hover
+			item1 -> perfil.html
+			item2 -> wishlist.html
+			item3 -> carrito.html
+			item4 -> misjuegos.html
+
+	body
+		img 380x200 -> juego.html
+		img boton 100x60 -> juego.html
+		
+(juego.html) Vista De Juego
+	nav
+		Botón1 45x45 -> index.html
+		Botón2 150x45 -> juegos.html
+		Botón3 150x45 -> contacto.html
+		Botón4 150x45 -> login.html
+		Botón4 Hover
+			item1 -> perfil.html
+			item2 -> wishlist.html
+			item3 -> carrito.html
+			item4 -> misjuegos.html
+		
+(contacto.html) Contacto
+	nav
+		Botón1 45x45 -> index.html
+		Botón2 150x45 -> juegos.html
+		Botón3 150x45 -> contacto.html
+		Botón4 150x45 -> login.html
+		Botón4 Hover
+			item1 -> perfil.html
+			item2 -> wishlist.html
+			item3 -> carrito.html
+			item4 -> misjuegos.html
+		
+(login.html) Iniciar Sesión
+	nav
+		Botón1 45x45 -> index.html
+		Botón2 150x45 -> juegos.html
+		Botón3 150x45 -> contacto.html
+		Botón4 150x45 -> login.html
+		Botón4 Hover
+			item1 -> perfil.html
+			item2 -> wishlist.html
+			item3 -> carrito.html
+			item4 -> misjuegos.html
+		
+	body
+		Botón Sign In -> signin.html
+
+(signin.html) Registrarse
+	nav
+		Botón1 45x45 -> index.html
+		Botón2 150x45 -> juegos.html
+		Botón3 150x45 -> contacto.html
+		Botón4 150x45 -> login.html
+		Botón4 Hover
+			item1 -> perfil.html
+			item2 -> wishlist.html
+			item3 -> carrito.html
+			item4 -> misjuegos.html
+		
+(perfil.html) Mi Perfil
+	nav
+		Botón1 45x45 -> index.html
+		Botón2 150x45 -> juegos.html
+		Botón3 150x45 -> contacto.html
+		Botón4 150x45 -> login.html
+		Botón4 Hover
+			item1 -> perfil.html
+			item2 -> wishlist.html
+			item3 -> carrito.html
+			item4 -> misjuegos.html
+
+	body
+		Botón 150x45 -> edit.html
+		
+(edit.html) Cambiar Contraseña
+	nav
+		Botón1 45x45 -> index.html
+		Botón2 150x45 -> juegos.html
+		Botón3 150x45 -> contacto.html
+		Botón4 150x45 -> login.html
+		Botón4 Hover
+			item1 -> perfil.html
+			item2 -> wishlist.html
+			item3 -> carrito.html
+			item4 -> misjuegos.html
+		
+(wishlist.html) Lista De Juegos Deseados
+	nav
+		Botón1 45x45 -> index.html
+		Botón2 150x45 -> juegos.html
+		Botón3 150x45 -> contacto.html
+		Botón4 150x45 -> login.html
+		Botón4 Hover
+			item1 -> perfil.html
+			item2 -> wishlist.html
+			item3 -> carrito.html
+			item4 -> misjuegos.html
+
+	body
+		img 380x200 -> juego.html
+		
+(carrito.html) Carrito De Compra
+	nav
+		Botón1 45x45 -> index.html
+		Botón2 150x45 -> juegos.html
+		Botón3 150x45 -> contacto.html
+		Botón4 150x45 -> login.html
+		Botón4 Hover
+			item1 -> perfil.html
+			item2 -> wishlist.html
+			item3 -> carrito.html
+			item4 -> misjuegos.html
+
+	body
+		img 380x200 -> juego.html
+		
+(misjuegos.html) Lista De Juegos Comprados
+	nav
+		Botón1 45x45 -> index.html
+		Botón2 150x45 -> juegos.html
+		Botón3 150x45 -> contacto.html
+		Botón4 150x45 -> login.html
+		Botón4 Hover
+			item1 -> perfil.html
+			item2 -> wishlist.html
+			item3 -> carrito.html
+			item4 -> misjuegos.html
+
+	body
+		img 380x200 -> juego.html
+		

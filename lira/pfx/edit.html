@@ -68,11 +68,11 @@
 				<div class="formBack">
 					<form>
 						<span id="titulo">Cambiar Contraseña</span><br>
-						<input type="password" name="Contraseña" placeholder="Contraseña" id="A">
+						<input type="password" name="Contraseña" placeholder="Contraseña" id="A" required>
 						<br>
-						<input type="password" name="Nueva Contraseña" placeholder="Nueva Contraseña" id="B">
+						<input type="password" name="Nueva Contraseña" placeholder="Nueva Contraseña" maxlength="24" minlength="8" pattern="[A-Za-z0-9]" id="B" required>
 						<br>
-						<input type="password" name="Repita la Contraseña" placeholder="Repita la Contraseña" id="C">
+						<input type="password" name="Repita la Contraseña" placeholder="Repita la Contraseña" id="C" required>
 						<br>
 						<input type="submit" name="Signin" value="Sign in">
 					</form>
