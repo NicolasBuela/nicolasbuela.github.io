@@ -94,6 +94,9 @@
 				text-decoration: none;
 				border-bottom: 1px dotted;
 			}
+			#index li a{
+				border-bottom: none;
+			}
 
 		/*/JUEGOS/*/
 			#games th{
@@ -287,17 +290,18 @@
 			#index ul{
 				margin: 0;
 				padding: 0;
-				list-style: none;
-				overflow: auto;
 				display: flex;
 				justify-content: flex-start;
+				list-style: none;
+				overflow-y: none;
 			}
 			#index li{
 				margin: 0.2%;
 				margin-top: 0;
 				margin-bottom: 0;
+				overflow-y: none;
 			}
-
+			
 		/*/JUEGOS/*/
 			#games{
 				position: relative;
@@ -708,6 +712,10 @@
 				height: 54px;
 			}
 			nav .wrap{
+				height: 45px;
+			}
+			nav img[alt=Logo]{
+				width: 45px;
 				height: 45px;
 			}
 			nav input[type=text]{
