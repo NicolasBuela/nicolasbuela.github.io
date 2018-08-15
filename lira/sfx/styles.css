@@ -13,10 +13,6 @@
 
 		/*/TIPOGRAFÍA/*/
 			--font-1: Corbel;
-
-		/*/POSICION/*/
-
-		/*/TAMAÑO/*/
 	}
 
 /*/PÁGINA/*/
@@ -182,7 +178,7 @@
 				margin: 0;
 			}
 			main{
-				margin-top: 54px;
+				margin-top: 3.9%;
 				margin-bottom: 30px;
 			}
 			footer{
@@ -362,6 +358,8 @@
 				margin-left: 10%;
 			}
 			#game #act{
+				padding: 0;
+				margin: 0;
 				display: flex;
 			}
 			#game td#act ul{
@@ -374,6 +372,9 @@
 			}
 			#game #act li.me{
 				margin-left: 3px;
+			}
+			#game #act img{
+				vertical-align: middle;
 			}
 			#game td#extra img{
 				margin-right: 10px;
@@ -696,7 +697,7 @@
 			}
 			#mygames article{
 				margin: 20px;
-				margin-bottom: 47px;
+				margin-bottom: 3%;
 				padding: 10px;
 			}
 
@@ -704,12 +705,12 @@
 		/*/TODO/*/
 			footer{
 				width: 100%;
-				height: 30px;
+				height: 4%;
 			}
 		/*/NAV/*/
 			nav{
 				width: 100%;
-				height: 54px;
+				height: 8%;
 			}
 			nav .wrap{
 				height: 45px;
