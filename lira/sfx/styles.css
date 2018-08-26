@@ -1,2650 +1,2652 @@
-@media only screen and (max-width: 1360px) {
-/*/VARIABLES/*/
-	html{
-		/*/COLOR/*/
-			--back-color-1: #000;
-			--back-color-2: #222;
-			--back-color-3: #333;
-			--back-color-4: #444;
-			--back-color-5: #111;
-			--back-color-6: #777;
+/*/PC/*/
+	/*/VARIABLES/*/
+		html{
+			/*/COLOR/*/
+				--back-color-1: #000;
+				--back-color-2: #222;
+				--back-color-3: #333;
+				--back-color-4: #444;
+				--back-color-5: #111;
+				--back-color-6: #777;
 
-			--fore-color-1: #FFF;
-			--fore-color-2: #777;
+				--fore-color-1: #FFF;
+				--fore-color-2: #777;
 
-		/*/TIPOGRAFÍA/*/
-			--font-1: Corbel;
-	}
-
-/*/PÁGINA/*/
-	/*/COLORES/*/
-		body{
-			background-color: var(--back-color-4);
-			color: var(--fore-color-1);
-		}
-		nav{
-			background-color: var(--back-color-1);
-		}
-		nav input[type=text]{
-			background-color:  var(--back-color-4);
-			color:  var(--fore-color-2);
-		}
-		nav input[type=submit]{
-			background-color:  var(--back-color-4);
-		}
-		nav #usrList{
-			background-color:  var(--back-color-5);
-		}
-		footer{
-			background-color: var(--back-color-1);
-		}
-		.formBack{
-			background-color: var(--back-color-1);
-		}
-		.articleBack{
-			background-color:  var(--back-color-3);
-		}
-		.textBack{
-			background-color:  var(--back-color-2);
-		}
-		a{
-			color: var(--fore-color-1);
+			/*/TIPOGRAFÍA/*/
+				--font-1: Corbel;
 		}
 
-	/*/TIPOGRAFÍAS/*/
-		/*/TODO/*/
+	/*/PÁGINA/*/
+		/*/COLORES/*/
 			body{
-				font-family: var(--font-1);
+				background-color: var(--back-color-4);
+				color: var(--fore-color-1);
+			}
+			nav{
+				background-color: var(--back-color-1);
+			}
+			nav input[type=text]{
+				background-color:  var(--back-color-4);
+				color:  var(--fore-color-2);
+			}
+			nav input[type=submit]{
+				background-color:  var(--back-color-4);
+			}
+			nav #usrList{
+				background-color:  var(--back-color-5);
 			}
 			footer{
-				text-align: right;
+				background-color: var(--back-color-1);
 			}
 			.formBack{
-				text-align: left;
+				background-color: var(--back-color-1);
+			}
+			.articleBack{
+				background-color:  var(--back-color-3);
 			}
 			.textBack{
-				text-align: justify;
+				background-color:  var(--back-color-2);
+			}
+			a{
+				color: var(--fore-color-1);
 			}
 
-		/*/NAV/*/
-			nav input[type=text]{
-				font-size: 20px;
-				font-weight: 100;
-				text-indent: 20px;
-			}
-			nav a{
-				text-decoration: none;
-			}
-			nav #usrList{
-				text-align: center;
-			}
+		/*/TIPOGRAFÍAS/*/
+			/*/TODO/*/
+				body{
+					font-family: var(--font-1);
+				}
+				footer{
+					text-align: right;
+				}
+				.formBack{
+					text-align: left;
+				}
+				.textBack{
+					text-align: justify;
+				}
 
-		/*/INDEX/*/
-			#index h2{
-				font-size: 35px;
-				text-align: left;
-			}
-			#index article{
-				text-align: right;
-			}
-			#index a{
-				text-decoration: none;
-				border-bottom: 1px dotted;
-			}
-			#index li a{
-				border-bottom: none;
-			}
+			/*/NAV/*/
+				nav input[type=text]{
+					font-size: 20px;
+					font-weight: 100;
+					text-indent: 20px;
+				}
+				nav a{
+					text-decoration: none;
+				}
+				nav #usrList{
+					text-align: center;
+				}
 
-		/*/JUEGOS/*/
-			#games th{
-				font-size: 25px;
-			}
-			#games #precio{
-				font-size: 18px;
-				text-align: center;
-			}
+			/*/INDEX/*/
+				#index h2{
+					font-size: 35px;
+					text-align: left;
+				}
+				#index article{
+					text-align: right;
+				}
+				#index a{
+					text-decoration: none;
+					border-bottom: 1px dotted;
+				}
+				#index li a{
+					border-bottom: none;
+				}
 
-		/*/JUEGO/*/
-			#game th{
-				font-size: 40px;
-				text-align: center;
-			}
-			#game td{
-				text-align: justify;
-				font-size: 20px;
-			}
-			#game td#valor{
-				text-align: center;
-			}
-			#game td#extra{
-				text-align: center;
-			}
-			#game #precio{
-				font-size: 25px;
-				text-align: center;
-			}
-			#game #tag{
-				font-size: 15px;
-			}
+			/*/JUEGOS/*/
+				#games th{
+					font-size: 25px;
+				}
+				#games #precio{
+					font-size: 18px;
+					text-align: center;
+				}
 
-		/*/CONTACTO/*/
-			#contact #titulo{
-				font-size: 20px;
-			}
+			/*/JUEGO/*/
+				#game th{
+					font-size: 40px;
+					text-align: center;
+				}
+				#game td{
+					text-align: justify;
+					font-size: 20px;
+				}
+				#game td#valor{
+					text-align: center;
+				}
+				#game td#extra{
+					text-align: center;
+				}
+				#game #precio{
+					font-size: 25px;
+					text-align: center;
+				}
+				#game #tag{
+					font-size: 15px;
+				}
 
-		/*/LOGIN/*/
-			#login .formBack{
-				text-align: center;
-			}
+			/*/CONTACTO/*/
+				#contact #titulo{
+					font-size: 20px;
+				}
 
-		/*/SIGNIN/*/
-			#signin #titulo{
-				font-size: 20px;
-			}
+			/*/LOGIN/*/
+				#login .formBack{
+					text-align: center;
+				}
 
-		/*/PERFIL/*/
-			#perfil{
-				text-align: justify;
-			}
-			#perfil #cambiar{
-				text-align: right;
-			}
+			/*/SIGNIN/*/
+				#signin #titulo{
+					font-size: 20px;
+				}
 
-		/*/EDIT/*/
-			#edit .formBack{
-				text-align: center;
-			}
+			/*/PERFIL/*/
+				#perfil{
+					text-align: justify;
+				}
+				#perfil #cambiar{
+					text-align: right;
+				}
 
-		/*/WISHLIST/*/
-			#wish th{
-				font-size: 25px;
-			}
+			/*/EDIT/*/
+				#edit .formBack{
+					text-align: center;
+				}
 
-		/*/CARRITO/*/
-			#carrito th{
-				font-size: 25px;
-			}
-			#carrito td#comprar{
-				text-align: right;
-			}
+			/*/WISHLIST/*/
+				#wish th{
+					font-size: 25px;
+				}
 
-		/*/MISJUEGOS/*/
-			#mygames th{
-				font-size: 25px;
-			}
+			/*/CARRITO/*/
+				#carrito th{
+					font-size: 25px;
+				}
+				#carrito td#comprar{
+					text-align: right;
+				}
 
-	/*/POSISIONAMIENTO/*/
-		/*/TODO/*/
-			body{
-				margin: 0;
-			}
-			main{
-				margin-top: 3.9%;
-				margin-bottom: 30px;
-			}
-			footer{
-				position: fixed;
-				bottom: 0px;
-				left: 0px;
-				margin: 0px;
-				z-index: 9999;
-			}
-			footer span{
-				position: relative;
-				bottom: -5px;
-				right: 10px;
-			}
+			/*/MISJUEGOS/*/
+				#mygames th{
+					font-size: 25px;
+				}
 
-		/*/NAV/*/
-			nav{
-				position: fixed;
-				top: 0px;
-				left: 0px;
-				margin: 0px;
-				z-index: 9999;
-			}
-			nav .leftItem{
-				margin: 0.3%;
-			}
-			nav #usuario{
-				position: relative;
-				float: right;
-				margin: 0.3%;
-				margin-right: 0px;
-			}
-			nav .wrap{
-				position: relative;
-				float: right;
-				top: 4px;
-				margin-left: 4px;
-				margin-right: 4px;
-				padding: 0;
-				display: inline-block;
-			}
-			nav input[type=text]{
-				position: relative;
-				float: right;
-				margin-right: 1px;
-				display: inline-block;
-				z-index: 4;
-				opacity: 0;
-				cursor: pointer;
-			}
-			nav input[type=text]:focus{
-				z-index: 2;
-				opacity: 1;
-				cursor: text;
-			}
-			nav input[type=submit]{
-				position: absolute;
-				top: 0px;
-				right: 0px;
-				display: inline-block;
-				z-index: 1;
-				cursor: pointer;
-			}
-			nav li.wrap img{
-				position: absolute;
-				top: 7px;
-				right: 7px;
-				z-index: 3;
-			}
-			nav ul{
-				margin: 0;
-				padding: 0;
-				list-style: none;
-				display: flex;
-				justify-content: flex-start;
-			}
-			nav #usrList{
-				margin-top: 1px;
-				padding-bottom: 5px;
+		/*/POSISIONAMIENTO/*/
+			/*/TODO/*/
+				body{
+					margin: 0;
+				}
+				main{
+					margin-top: 3.9%;
+					margin-bottom: 30px;
+				}
+				footer{
+					position: fixed;
+					bottom: 0px;
+					left: 0px;
+					margin: 0px;
+					z-index: 9999;
+				}
+				footer span{
+					position: relative;
+					bottom: -5px;
+					right: 10px;
+				}
+
+			/*/NAV/*/
+				nav{
+					position: fixed;
+					top: 0px;
+					left: 0px;
+					margin: 0px;
+					z-index: 9999;
+				}
+				nav .leftItem{
+					margin: 0.3%;
+				}
+				nav #usuario{
+					position: relative;
+					float: right;
+					margin: 0.3%;
+					margin-right: 0px;
+				}
+				nav .wrap{
+					position: relative;
+					float: right;
+					top: 4px;
+					margin-left: 4px;
+					margin-right: 4px;
+					padding: 0;
+					display: inline-block;
+				}
+				nav input[type=text]{
+					position: relative;
+					float: right;
+					margin-right: 1px;
+					display: inline-block;
+					z-index: 4;
+					opacity: 0;
+					cursor: pointer;
+				}
+				nav input[type=text]:focus{
+					z-index: 2;
+					opacity: 1;
+					cursor: text;
+				}
+				nav input[type=submit]{
+					position: absolute;
+					top: 0px;
+					right: 0px;
+					display: inline-block;
+					z-index: 1;
+					cursor: pointer;
+				}
+				nav li.wrap img{
+					position: absolute;
+					top: 7px;
+					right: 7px;
+					z-index: 3;
+				}
+				nav ul{
+					margin: 0;
+					padding: 0;
+					list-style: none;
+					display: flex;
+					justify-content: flex-start;
+				}
+				nav #usrList{
+					margin-top: 1px;
+					padding-bottom: 5px;
+					display: none;
+					justify-content: flex-start;
+					flex-direction: column;
+				}
+				nav li#usuario:hover #usrList{
+					display: flex;
+				}
+				nav #usrList li{
+					margin-top: 5px;
+				}
+
+			/*/INDEX/*/
+				#index table{
+					vertical-align: middle;
+					overflow-x: auto;
+				}
+				#index h2{
+					margin-bottom: 3.5%;
+					padding-left: 2%;
+				}
+				#index article{
+					margin: 6%;
+					padding: 2.5%;
+					padding-top: 1%;
+				}
+				#index ul{
+					margin: 0;
+					padding: 0;
+					display: flex;
+					justify-content: flex-start;
+					list-style: none;
+					overflow-y: none;
+				}
+				#index li{
+					margin: 0.2%;
+					margin-top: 0;
+					margin-bottom: 0;
+					overflow-y: none;
+				}
+				
+			/*/JUEGOS/*/
+				#games{
+					position: relative;
+					top: 20px;
+				}
+				#games table{
+					position: relative;
+					left: 5px;
+					top: 5px;
+					margin-right: 10px;
+					margin-bottom: 10px;
+				}
+				#games th{
+					padding-left: 20px;
+					padding-bottom: 10px;
+				}
+				#games td#img{
+					margin: 0px;
+					padding: 0px;
+					background-repeat: no-repeat;
+				}
+				#games td#img img, #games #ver img{
+					vertical-align: middle;
+				}
+				#games td.textBack{
+					padding: 10px;
+				}
+				#games article{
+					margin: 20px;
+					margin-bottom: 47px;
+					padding: 10px;
+				}
+				#games #ver{
+					margin: 0;
+					padding: 0;
+				}
+
+			/*/JUEGO/*/
+				#game table{
+					margin: 20px;
+				}
+				#game td#img{
+					margin: 0;
+					padding: 0;
+				}
+				#game td#img img{
+					vertical-align: middle;
+				}
+				#game th{
+					padding-left: 20px;
+					vertical-align: middle;
+				}
+				#game td#info, #game #tag{
+					padding: 10px;	
+					vertical-align: middle;
+				}
+				#game td#valor input[type=submit]{
+					margin-left: 10%;
+				}
+				#game #act{
+					padding: 0;
+					margin: 0;
+					display: flex;
+				}
+				#game td#act ul{
+					margin: 0;
+					padding: 0;
+					list-style: none;
+					display: flex;
+					justify-content: flex-start;
+					overflow-x: scroll;
+				}
+				#game #act li.me{
+					margin-left: 3px;
+				}
+				#game #act img{
+					vertical-align: middle;
+				}
+				#game td#extra img{
+					margin-right: 10px;
+					margin-left: 10%;
+					vertical-align: middle;
+				}
+				#game td#minfo{
+					padding: 10px;
+					padding-top: 20px;
+					padding-bottom: 20px;
+				}
+				#game article{
+					position: relative;
+					top: 20px;
+					left: 0px;
+					margin: 20px;
+					margin-bottom: 47px;
+					padding: 10px;
+				}
+				#game #tag{
+					vertical-align: top;
+				}
+
+			/*/CONTACTO/*/
+				#contact .formBack{
+					position: absolute;
+					top: 29%;
+					left: 32%;
+					display: inline-block;
+				}
+				#contact #titulo{
+					position: relative;
+					top: 8px;
+					left: 205px;
+					display: inline-block;
+				}
+				#contact input[type=email]{
+					position: relative;
+					top: 15px;
+					left: 29px;
+					display: inline-block;
+				}
+				#contact input[type=text]{
+					position: relative;
+					top: 15px;
+					left: 35px;
+					display: inline-block;
+				}
+				#contact textarea{
+					position: relative;
+					top: 25px;
+					left: 29px;
+					display: inline-block;
+				}
+				#contact input[type=submit]{
+					position: relative;
+					float: right;
+					top: 30px;
+					right: 29px;
+					display: inline-block;
+				}
+
+			/*/LOGIN/*/
+				#login .formBack{
+					position: absolute;
+					top: 40%;
+					left: 40%;
+					display: inline-block;
+				}
+				#login #title{
+					position: relative;
+					top: 6px;
+					display: inline-block;
+				}
+				#login input[type=email]{
+					position: relative;
+					top: 10px;
+					display: inline-block;
+				}
+				#login input[type=password]{
+					position: relative;
+					top: 15px;
+					display: inline-block;
+				}
+				#login #sesion{
+					position: relative;
+					top: 20px;
+					display: inline-block;
+				}
+				#login input[type=submit], #login input[type=button]{
+					position: relative;
+					top: 25px;
+					display: inline-block;
+				}
+
+			/*/SIGNIN/*/
+				#signin .formBack{
+					position: absolute;
+					top: 38%;
+					left: 38%;
+					display: inline-block;
+				}
+				#signin #titulo{
+					position: absolute;
+					top: 8px;
+					left: 120px;
+					display: inline-block;
+				}
+				#signin #nombre{
+					position: absolute;
+					top: 37px;
+					left: 10px;
+					display: inline-block;
+				}
+				#signin #apellido{
+					position: absolute;
+					top: 62px;
+					left: 10px;
+					display: inline-block;
+				}
+				#signin #email{
+					position: absolute;
+					top: 87px;
+					left: 10px;
+					display: inline-block;
+				}
+				#signin #contraseña1{
+					position: absolute;
+					top: 112px;
+					left: 10px;
+					display: inline-block;
+				}
+				#signin #contraseña2{
+					position: absolute;
+					top: 137px;
+					left: 10px;
+					display: inline-block;
+				}
+				#signin input[name=Nombre]{
+					position: absolute;
+					top: 37px;
+					right: 10px;
+					display: inline-block;
+				}
+				#signin input[name=Apellido]{
+					position: absolute;
+					top: 62px;
+					right: 10px;
+					display: inline-block;
+				}
+				#signin input[type=email]{
+					position: absolute;
+					top: 87px;
+					right: 10px;
+					display: inline-block;
+				}
+				#signin input[type=password]#A{
+					position: absolute;
+					top: 112px;
+					right: 10px;
+					display: inline-block;
+				}
+				#signin input[type=password]#B{
+					position: absolute;
+					top: 137px;
+					right: 10px;
+					display: inline-block;
+				}
+				#signin input[type=submit]{
+					position: absolute;
+					top: 162px;
+					right: 10px;
+					display: inline-block;
+				}
+
+			/*/MI PERFIL/*/
+				#perfil article{
+					margin: 2.5%;
+					margin-top: 6%;
+					padding: 2%;
+				}
+				#perfil td{
+					vertical-align: top;
+					padding-bottom: 1%;
+					padding-top: 1%;
+				}
+				#perfil td#text{
+					padding-left: 3%;
+				}
+				#perfil td img{
+					vertical-align: middle;
+				}
+				#perfil td#cambiar{
+					vertical-align: bottom;
+				}
+
+			/*/EDIT/*/
+				#edit .formBack{
+					position: absolute;
+					top: 40%;
+					left: 40%;
+					display: inline-block;
+				}
+				#edit #titulo{
+					position: relative;
+					top: 15px;
+				}
+				#edit input[type=password]#A{
+					position: relative;
+					top: 25px;
+					display: inline-block;
+				}
+				#edit input[type=password]#B{
+					position: relative;
+					top: 35px;
+					display: inline-block;
+				}
+				#edit input[type=password]#C{
+					position: relative;
+					top: 45px;
+					display: inline-block;
+				}
+				#edit input[type=submit]{
+					position: relative;
+					top: 55px ;
+					display: inline-block;
+				}
+
+
+			/*/WISHLIST/*/
+				#wish{
+					position: relative;
+					top: 20px;
+				}
+				#wish table{
+					position: relative;
+					left: 5px;
+					top: 5px;
+					margin-right: 10px;
+					margin-bottom: 10px;
+				}
+				#wish th{
+					padding-left: 20px;
+					padding-bottom: 10px;
+				}
+				#wish td#img, #wish #nope{
+					margin: 0px;
+					padding: 0px;
+				}
+				#wish td#img img{
+					vertical-align: middle;
+				}
+				#wish td.textBack{
+					padding: 10px;
+				}
+				#wish article{
+					margin: 20px;
+					margin-bottom: 47px;
+					padding: 10px;
+				}
+
+			/*/CARRITO/*/
+				#carrito{
+					position: relative;
+					top: 20px;
+				}
+				#carrito table{
+					position: relative;
+					left: 5px;
+					top: 5px;
+					margin-right: 10px;
+					margin-bottom: 10px;
+				}
+				#carrito th{
+					padding-left: 20px;
+					padding-bottom: 10px;
+				}
+				#carrito td#img, #carrito #nope{
+					margin: 0px;
+					padding: 0px;
+				}
+				#carrito td#img img{
+					vertical-align: middle;
+				}
+				#carrito td.textBack{
+					padding: 10px;
+				}
+				#carrito article{
+					margin: 20px;
+					margin-bottom: 47px;
+					padding: 10px;
+				}
+
+
+			/*/MISJUEGOS/*/
+				#mygames{
+					position: relative;
+					top: 20px;
+				}
+				#mygames table{
+					position: relative;
+					left: 5px;
+					top: 5px;
+					margin-right: 10px;
+					margin-bottom: 10px;
+				}
+				#mygames th{
+					padding-left: 20px;
+					padding-bottom: 10px;
+				}
+				#mygames td#img, #mygames #nope{
+					margin: 0px;
+					padding: 0px;
+				}
+				#mygames td#img img{
+					vertical-align: middle;
+				}
+				#mygames td.textBack{
+					padding: 10px;
+				}
+				#mygames article{
+					margin: 20px;
+					margin-bottom: 3%;
+					padding: 10px;
+				}
+
+		/*/TAMAÑOS/*/
+			/*/TODO/*/
+				footer{
+					width: 100%;
+					height: 4%;
+				}
+			/*/NAV/*/
+				nav{
+					width: 100%;
+					height: 54px;
+				}
+				nav .wrap{
+					width: 100%;
+					height: 8%;
+				}
+				nav img[alt=Logo]{
+					width: 45px;
+					height: auto;
+				}
+				nav input[type=text]{
+					width: 45px;
+					height: 43px;
+					border: none;
+					border-radius: 100px;
+					outline: none;
+				}
+				nav input[type=text]:focus{
+					width: 100%;
+					cursor: text;
+				}
+				nav input[type=submit]{
+					width: 45px;
+					height: 45px;
+					border: none;
+					border-radius: 100px;
+					outline: none;
+				}
+				nav li.wrap img{
+					width: 30px;
+				}
+				nav #usrList{
+					border-bottom-left-radius: 5px;
+					border-bottom-right-radius: 5px;
+				}
+
+			/*/INDEX/*/
+				#index img#banner{
+					width: 100%
+				}
+				#index article{
+					border-radius: 10px;
+				}
+				#index img{
+					width: 280px;
+					height: 155px;
+				}
+
+			/*/JUEGOS/*/
+				#games td#img{
+					border: 0px;
+					width: 280px;
+					height: 155px;
+				}
+				#games article{
+					border-radius: 10px;
+				}
+				#games #precio{
+					width: 70px;
+				}
+				#games #ver{
+					width: 100px;
+					height: 60px;
+					min-height: 60px;
+					max-height: 60px;
+				}
+
+			/*/JUEGO/*/
+				#game table{
+					border-collapse: separate;
+					border-spacing: 5px;
+				}
+				#game td#act ul{
+					width: 450px;
+					height: 60px;
+				}
+				#game article{
+					border-radius: 10px;
+				}
+
+			/*/CONTACTO/*/
+				#contact .formBack{
+					width: 500px;
+					height: 350px;
+					border-radius: 10px;
+				}
+				#contact textarea{
+					resize: none;
+				}
+
+			/*/LOGIN/*/
+				#login .formBack{
+					width: 280px;
+					height: 150px;
+					border-radius: 10px;
+				}
+
+			/*/SIGNIN/*/
+				#signin .formBack{
+					width: 350px;
+					height: 200px;
+					border-radius: 10px;
+				}
+				#signin input[type=date]{
+					width: 168px;
+				}
+
+			/*/MI PERFIL/*/
+				#perfil article{
+					height: 465px;
+					border-radius: 10px;
+				}
+
+			/*/EDIT/*/
+				#edit .formBack{
+					width: 280px;
+					height: 170px;
+					border-radius: 10px;
+				}
+				#edit input[type=date]{
+					width: 168px;
+				}
+
+			/*/WISHLIST/*/
+				#wish td#img{
+					width: 280px;
+					height: 155px;
+					border: 0px;
+				}
+				#wish #nope{
+					width: 60px;
+					height: 60px;
+				}
+				#wish article{
+					border-radius: 10px;
+				}
+
+			/*/CARRITO/*/
+				#carrito td#img{
+					width: 280px;
+					height: 155px;
+					border: 0px;
+				}
+				#carrito #nope{
+					width: 60px;
+					height: 60px;
+				}
+				#carrito article{
+					border-radius: 10px;
+				}
+
+			/*/MISJUEGOS/*/
+				#mygames td#img{
+					width: 280px;
+					height: 155px;
+					border: 0px;
+				}
+				#mygames #nope{
+					width: 60px;
+					height: 60px;
+				}
+				#mygames article{
+					border-radius: 10px;
+				}
+
+		/*/OTROS/*/
+			::-webkit-scrollbar{
 				display: none;
-				justify-content: flex-start;
-				flex-direction: column;
-			}
-			nav li#usuario:hover #usrList{
-				display: flex;
-			}
-			nav #usrList li{
-				margin-top: 5px;
-			}
-
-		/*/INDEX/*/
-			#index table{
-				vertical-align: middle;
-				overflow-x: auto;
-			}
-			#index h2{
-				margin-bottom: 3.5%;
-				padding-left: 2%;
-			}
-			#index article{
-				margin: 6%;
-				padding: 2.5%;
-				padding-top: 1%;
-			}
-			#index ul{
-				margin: 0;
-				padding: 0;
-				display: flex;
-				justify-content: flex-start;
-				list-style: none;
-				overflow-y: none;
-			}
-			#index li{
-				margin: 0.2%;
-				margin-top: 0;
-				margin-bottom: 0;
-				overflow-y: none;
-			}
-			
-		/*/JUEGOS/*/
-			#games{
-				position: relative;
-				top: 20px;
-			}
-			#games table{
-				position: relative;
-				left: 5px;
-				top: 5px;
-				margin-right: 10px;
-				margin-bottom: 10px;
-			}
-			#games th{
-				padding-left: 20px;
-				padding-bottom: 10px;
-			}
-			#games td#img{
-				margin: 0px;
-				padding: 0px;
-				background-repeat: no-repeat;
-			}
-			#games td#img img, #games #ver img{
-				vertical-align: middle;
-			}
-			#games td.textBack{
-				padding: 10px;
-			}
-			#games article{
-				margin: 20px;
-				margin-bottom: 47px;
-				padding: 10px;
-			}
-			#games #ver{
-				margin: 0;
-				padding: 0;
-			}
-
-		/*/JUEGO/*/
-			#game table{
-				margin: 20px;
-			}
-			#game td#img{
-				margin: 0;
-				padding: 0;
-			}
-			#game td#img img{
-				vertical-align: middle;
-			}
-			#game th{
-				padding-left: 20px;
-				vertical-align: middle;
-			}
-			#game td#info, #game #tag{
-				padding: 10px;	
-				vertical-align: middle;
-			}
-			#game td#valor input[type=submit]{
-				margin-left: 10%;
-			}
-			#game #act{
-				padding: 0;
-				margin: 0;
-				display: flex;
-			}
-			#game td#act ul{
-				margin: 0;
-				padding: 0;
-				list-style: none;
-				display: flex;
-				justify-content: flex-start;
-				overflow-x: scroll;
-			}
-			#game #act li.me{
-				margin-left: 3px;
-			}
-			#game #act img{
-				vertical-align: middle;
-			}
-			#game td#extra img{
-				margin-right: 10px;
-				margin-left: 10%;
-				vertical-align: middle;
-			}
-			#game td#minfo{
-				padding: 10px;
-				padding-top: 20px;
-				padding-bottom: 20px;
-			}
-			#game article{
-				position: relative;
-				top: 20px;
-				left: 0px;
-				margin: 20px;
-				margin-bottom: 47px;
-				padding: 10px;
-			}
-			#game #tag{
-				vertical-align: top;
-			}
-
-		/*/CONTACTO/*/
-			#contact .formBack{
-				position: absolute;
-				top: 29%;
-				left: 32%;
-				display: inline-block;
-			}
-			#contact #titulo{
-				position: relative;
-				top: 8px;
-				left: 205px;
-				display: inline-block;
-			}
-			#contact input[type=email]{
-				position: relative;
-				top: 15px;
-				left: 29px;
-				display: inline-block;
-			}
-			#contact input[type=text]{
-				position: relative;
-				top: 15px;
-				left: 35px;
-				display: inline-block;
-			}
-			#contact textarea{
-				position: relative;
-				top: 25px;
-				left: 29px;
-				display: inline-block;
-			}
-			#contact input[type=submit]{
-				position: relative;
-				float: right;
-				top: 30px;
-				right: 29px;
-				display: inline-block;
-			}
-
-		/*/LOGIN/*/
-			#login .formBack{
-				position: absolute;
-				top: 40%;
-				left: 40%;
-				display: inline-block;
-			}
-			#login #title{
-				position: relative;
-				top: 6px;
-				display: inline-block;
-			}
-			#login input[type=email]{
-				position: relative;
-				top: 10px;
-				display: inline-block;
-			}
-			#login input[type=password]{
-				position: relative;
-				top: 15px;
-				display: inline-block;
-			}
-			#login #sesion{
-				position: relative;
-				top: 20px;
-				display: inline-block;
-			}
-			#login input[type=submit], #login input[type=button]{
-				position: relative;
-				top: 25px;
-				display: inline-block;
-			}
-
-		/*/SIGNIN/*/
-			#signin .formBack{
-				position: absolute;
-				top: 38%;
-				left: 38%;
-				display: inline-block;
-			}
-			#signin #titulo{
-				position: absolute;
-				top: 8px;
-				left: 120px;
-				display: inline-block;
-			}
-			#signin #nombre{
-				position: absolute;
-				top: 37px;
-				left: 10px;
-				display: inline-block;
-			}
-			#signin #apellido{
-				position: absolute;
-				top: 62px;
-				left: 10px;
-				display: inline-block;
-			}
-			#signin #email{
-				position: absolute;
-				top: 87px;
-				left: 10px;
-				display: inline-block;
-			}
-			#signin #contraseña1{
-				position: absolute;
-				top: 112px;
-				left: 10px;
-				display: inline-block;
-			}
-			#signin #contraseña2{
-				position: absolute;
-				top: 137px;
-				left: 10px;
-				display: inline-block;
-			}
-			#signin input[name=Nombre]{
-				position: absolute;
-				top: 37px;
-				right: 10px;
-				display: inline-block;
-			}
-			#signin input[name=Apellido]{
-				position: absolute;
-				top: 62px;
-				right: 10px;
-				display: inline-block;
-			}
-			#signin input[type=email]{
-				position: absolute;
-				top: 87px;
-				right: 10px;
-				display: inline-block;
-			}
-			#signin input[type=password]#A{
-				position: absolute;
-				top: 112px;
-				right: 10px;
-				display: inline-block;
-			}
-			#signin input[type=password]#B{
-				position: absolute;
-				top: 137px;
-				right: 10px;
-				display: inline-block;
-			}
-			#signin input[type=submit]{
-				position: absolute;
-				top: 162px;
-				right: 10px;
-				display: inline-block;
-			}
-
-		/*/MI PERFIL/*/
-			#perfil article{
-				margin: 2.5%;
-				margin-top: 6%;
-				padding: 2%;
-			}
-			#perfil td{
-				vertical-align: top;
-				padding-bottom: 1%;
-				padding-top: 1%;
-			}
-			#perfil td#text{
-				padding-left: 3%;
-			}
-			#perfil td img{
-				vertical-align: middle;
-			}
-			#perfil td#cambiar{
-				vertical-align: bottom;
-			}
-
-		/*/EDIT/*/
-			#edit .formBack{
-				position: absolute;
-				top: 40%;
-				left: 40%;
-				display: inline-block;
-			}
-			#edit #titulo{
-				position: relative;
-				top: 15px;
-			}
-			#edit input[type=password]#A{
-				position: relative;
-				top: 25px;
-				display: inline-block;
-			}
-			#edit input[type=password]#B{
-				position: relative;
-				top: 35px;
-				display: inline-block;
-			}
-			#edit input[type=password]#C{
-				position: relative;
-				top: 45px;
-				display: inline-block;
-			}
-			#edit input[type=submit]{
-				position: relative;
-				top: 55px ;
-				display: inline-block;
-			}
-
-
-		/*/WISHLIST/*/
-			#wish{
-				position: relative;
-				top: 20px;
-			}
-			#wish table{
-				position: relative;
-				left: 5px;
-				top: 5px;
-				margin-right: 10px;
-				margin-bottom: 10px;
-			}
-			#wish th{
-				padding-left: 20px;
-				padding-bottom: 10px;
-			}
-			#wish td#img, #wish #nope{
-				margin: 0px;
-				padding: 0px;
-			}
-			#wish td#img img{
-				vertical-align: middle;
-			}
-			#wish td.textBack{
-				padding: 10px;
-			}
-			#wish article{
-				margin: 20px;
-				margin-bottom: 47px;
-				padding: 10px;
-			}
-
-		/*/CARRITO/*/
-			#carrito{
-				position: relative;
-				top: 20px;
-			}
-			#carrito table{
-				position: relative;
-				left: 5px;
-				top: 5px;
-				margin-right: 10px;
-				margin-bottom: 10px;
-			}
-			#carrito th{
-				padding-left: 20px;
-				padding-bottom: 10px;
-			}
-			#carrito td#img, #carrito #nope{
-				margin: 0px;
-				padding: 0px;
-			}
-			#carrito td#img img{
-				vertical-align: middle;
-			}
-			#carrito td.textBack{
-				padding: 10px;
-			}
-			#carrito article{
-				margin: 20px;
-				margin-bottom: 47px;
-				padding: 10px;
-			}
-
-
-		/*/MISJUEGOS/*/
-			#mygames{
-				position: relative;
-				top: 20px;
-			}
-			#mygames table{
-				position: relative;
-				left: 5px;
-				top: 5px;
-				margin-right: 10px;
-				margin-bottom: 10px;
-			}
-			#mygames th{
-				padding-left: 20px;
-				padding-bottom: 10px;
-			}
-			#mygames td#img, #mygames #nope{
-				margin: 0px;
-				padding: 0px;
-			}
-			#mygames td#img img{
-				vertical-align: middle;
-			}
-			#mygames td.textBack{
-				padding: 10px;
-			}
-			#mygames article{
-				margin: 20px;
-				margin-bottom: 3%;
-				padding: 10px;
-			}
-
-	/*/TAMAÑOS/*/
-		/*/TODO/*/
-			footer{
-				width: 100%;
-				height: 4%;
-			}
-		/*/NAV/*/
-			nav{
-				width: 100%;
-				height: 54px;
-			}
-			nav .wrap{
-				width: 100%;
-				height: 8%;
-			}
-			nav img[alt=Logo]{
-				width: 45px;
-				height: auto;
-			}
-			nav input[type=text]{
-				width: 45px;
-				height: 43px;
-				border: none;
-				border-radius: 100px;
-				outline: none;
-			}
-			nav input[type=text]:focus{
-				width: 100%;
-				cursor: text;
-			}
-			nav input[type=submit]{
-				width: 45px;
-				height: 45px;
-				border: none;
-				border-radius: 100px;
-				outline: none;
-			}
-			nav li.wrap img{
-				width: 30px;
-			}
-			nav #usrList{
-				border-bottom-left-radius: 5px;
-				border-bottom-right-radius: 5px;
-			}
-
-		/*/INDEX/*/
-			#index img#banner{
-				width: 100%
-			}
-			#index article{
-				border-radius: 10px;
-			}
-			#index img{
-				width: 280px;
-				height: 155px;
-			}
-
-		/*/JUEGOS/*/
-			#games td#img{
-				border: 0px;
-				width: 280px;
-				height: 155px;
-			}
-			#games article{
-				border-radius: 10px;
-			}
-			#games #precio{
-				width: 70px;
-			}
-			#games #ver{
-				width: 100px;
-				height: 60px;
-				min-height: 60px;
-				max-height: 60px;
-			}
-
-		/*/JUEGO/*/
-			#game table{
-				border-collapse: separate;
-				border-spacing: 5px;
-			}
-			#game td#act ul{
-				width: 450px;
-				height: 60px;
-			}
-			#game article{
-				border-radius: 10px;
-			}
-
-		/*/CONTACTO/*/
-			#contact .formBack{
-				width: 500px;
-				height: 350px;
-				border-radius: 10px;
-			}
-			#contact textarea{
-				resize: none;
-			}
-
-		/*/LOGIN/*/
-			#login .formBack{
-				width: 280px;
-				height: 150px;
-				border-radius: 10px;
-			}
-
-		/*/SIGNIN/*/
-			#signin .formBack{
-				width: 350px;
-				height: 200px;
-				border-radius: 10px;
-			}
-			#signin input[type=date]{
-				width: 168px;
-			}
-
-		/*/MI PERFIL/*/
-			#perfil article{
-				height: 465px;
-				border-radius: 10px;
-			}
-
-		/*/EDIT/*/
-			#edit .formBack{
-				width: 280px;
-				height: 170px;
-				border-radius: 10px;
-			}
-			#edit input[type=date]{
-				width: 168px;
-			}
-
-		/*/WISHLIST/*/
-			#wish td#img{
-				width: 280px;
-				height: 155px;
-				border: 0px;
-			}
-			#wish #nope{
-				width: 60px;
-				height: 60px;
-			}
-			#wish article{
-				border-radius: 10px;
-			}
-
-		/*/CARRITO/*/
-			#carrito td#img{
-				width: 280px;
-				height: 155px;
-				border: 0px;
-			}
-			#carrito #nope{
-				width: 60px;
-				height: 60px;
-			}
-			#carrito article{
-				border-radius: 10px;
-			}
-
-		/*/MISJUEGOS/*/
-			#mygames td#img{
-				width: 280px;
-				height: 155px;
-				border: 0px;
-			}
-			#mygames #nope{
-				width: 60px;
-				height: 60px;
-			}
-			#mygames article{
-				border-radius: 10px;
-			}
-
-	/*/OTROS/*/
-		::-webkit-scrollbar{
-			display: none;
 		}
-}
 
-@media only screen and (max-width: 1360px and min-width: 1200px) {
-/*/VARIABLES/*/
-	html{
-		/*/COLOR/*/
-			--back-color-1: #000;
-			--back-color-2: #222;
-			--back-color-3: #333;
-			--back-color-4: #444;
-			--back-color-5: #111;
-			--back-color-6: #777;
+/*/TABLET/*/
+	@media only screen and (max-width: 1360px and min-width: 1200px) {
+		/*/VARIABLES/*/
+			html{
+				/*/COLOR/*/
+					--back-color-1: #000;
+					--back-color-2: #222;
+					--back-color-3: #333;
+					--back-color-4: #444;
+					--back-color-5: #111;
+					--back-color-6: #777;
 
-			--fore-color-1: #FFF;
-			--fore-color-2: #777;
+					--fore-color-1: #FFF;
+					--fore-color-2: #777;
 
-		/*/TIPOGRAFÍA/*/
-			--font-1: Corbel;
+				/*/TIPOGRAFÍA/*/
+					--font-1: Corbel;
+			}
+
+		/*/PÁGINA/*/
+			/*/COLORES/*/
+				body{
+					background-color: var(--back-color-4);
+					color: var(--fore-color-1);
+				}
+				nav{
+					background-color: var(--back-color-1);
+				}
+				nav input[type=text]{
+					background-color:  var(--back-color-4);
+					color:  var(--fore-color-2);
+				}
+				nav input[type=submit]{
+					background-color:  var(--back-color-4);
+				}
+				nav #usrList{
+					background-color:  var(--back-color-5);
+				}
+				footer{
+					background-color: var(--back-color-1);
+				}
+				.formBack{
+					background-color: var(--back-color-1);
+				}
+				.articleBack{
+					background-color:  var(--back-color-3);
+				}
+				.textBack{
+					background-color:  var(--back-color-2);
+				}
+				a{
+					color: var(--fore-color-1);
+				}
+
+			/*/TIPOGRAFÍAS/*/
+				/*/TODO/*/
+					body{
+						font-family: var(--font-1);
+					}
+					footer{
+						text-align: right;
+					}
+					.formBack{
+						text-align: left;
+					}
+					.textBack{
+						text-align: justify;
+					}
+
+				/*/NAV/*/
+					nav input[type=text]{
+						font-size: 20px;
+						font-weight: 100;
+						text-indent: 20px;
+					}
+					nav a{
+						text-decoration: none;
+					}
+					nav #usrList{
+						text-align: center;
+					}
+
+				/*/INDEX/*/
+					#index h2{
+						font-size: 35px;
+						text-align: left;
+					}
+					#index article{
+						text-align: right;
+					}
+					#index a{
+						text-decoration: none;
+						border-bottom: 1px dotted;
+					}
+					#index li a{
+						border-bottom: none;
+					}
+
+				/*/JUEGOS/*/
+					#games th{
+						font-size: 25px;
+					}
+					#games #precio{
+						font-size: 18px;
+						text-align: center;
+					}
+
+				/*/JUEGO/*/
+					#game th{
+						font-size: 40px;
+						text-align: center;
+					}
+					#game td{
+						text-align: justify;
+						font-size: 20px;
+					}
+					#game td#valor{
+						text-align: center;
+					}
+					#game td#extra{
+						text-align: center;
+					}
+					#game #precio{
+						font-size: 25px;
+						text-align: center;
+					}
+					#game #tag{
+						font-size: 15px;
+					}
+
+				/*/CONTACTO/*/
+					#contact #titulo{
+						font-size: 20px;
+					}
+
+				/*/LOGIN/*/
+					#login .formBack{
+						text-align: center;
+					}
+
+				/*/SIGNIN/*/
+					#signin #titulo{
+						font-size: 20px;
+					}
+
+				/*/PERFIL/*/
+					#perfil{
+						text-align: justify;
+					}
+					#perfil #cambiar{
+						text-align: right;
+					}
+
+				/*/EDIT/*/
+					#edit .formBack{
+						text-align: center;
+					}
+
+				/*/WISHLIST/*/
+					#wish th{
+						font-size: 25px;
+					}
+
+				/*/CARRITO/*/
+					#carrito th{
+						font-size: 25px;
+					}
+					#carrito td#comprar{
+						text-align: right;
+					}
+
+				/*/MISJUEGOS/*/
+					#mygames th{
+						font-size: 25px;
+					}
+
+			/*/POSISIONAMIENTO/*/
+				/*/TODO/*/
+					body{
+						margin: 0;
+					}
+					main{
+						margin-top: 3.9%;
+						margin-bottom: 30px;
+					}
+					footer{
+						position: fixed;
+						bottom: 0px;
+						left: 0px;
+						margin: 0px;
+						z-index: 9999;
+					}
+					footer span{
+						position: relative;
+						bottom: -5px;
+						right: 10px;
+					}
+
+				/*/NAV/*/
+					nav{
+						position: fixed;
+						top: 0px;
+						left: 0px;
+						margin: 0px;
+						z-index: 9999;
+					}
+					nav .leftItem{
+						margin: 0.3%;
+					}
+					nav #usuario{
+						position: relative;
+						float: right;
+						margin: 0.3%;
+						margin-right: 0px;
+					}
+					nav .wrap{
+						position: relative;
+						float: right;
+						top: 4px;
+						margin-left: 4px;
+						margin-right: 4px;
+						padding: 0;
+						display: inline-block;
+					}
+					nav input[type=text]{
+						position: relative;
+						float: right;
+						margin-right: 1px;
+						display: inline-block;
+						z-index: 4;
+						opacity: 0;
+						cursor: pointer;
+					}
+					nav input[type=text]:focus{
+						z-index: 2;
+						opacity: 1;
+						cursor: text;
+					}
+					nav input[type=submit]{
+						position: absolute;
+						top: 0px;
+						right: 0px;
+						display: inline-block;
+						z-index: 1;
+						cursor: pointer;
+					}
+					nav li.wrap img{
+						position: absolute;
+						top: 7px;
+						right: 7px;
+						z-index: 3;
+					}
+					nav ul{
+						margin: 0;
+						padding: 0;
+						list-style: none;
+						display: flex;
+						justify-content: flex-start;
+					}
+					nav #usrList{
+						margin-top: 1px;
+						padding-bottom: 5px;
+						display: none;
+						justify-content: flex-start;
+						flex-direction: column;
+					}
+					nav li#usuario:hover #usrList{
+						display: flex;
+					}
+					nav #usrList li{
+						margin-top: 5px;
+					}
+
+				/*/INDEX/*/
+					#index table{
+						vertical-align: middle;
+						overflow-x: auto;
+					}
+					#index h2{
+						margin-bottom: 3.5%;
+						padding-left: 2%;
+					}
+					#index article{
+						margin: 6%;
+						padding: 2.5%;
+						padding-top: 1%;
+					}
+					#index ul{
+						margin: 0;
+						padding: 0;
+						display: flex;
+						justify-content: flex-start;
+						list-style: none;
+						overflow-y: none;
+					}
+					#index li{
+						margin: 0.2%;
+						margin-top: 0;
+						margin-bottom: 0;
+						overflow-y: none;
+					}
+					
+				/*/JUEGOS/*/
+					#games{
+						position: relative;
+						top: 20px;
+					}
+					#games table{
+						position: relative;
+						left: 5px;
+						top: 5px;
+						margin-right: 10px;
+						margin-bottom: 10px;
+					}
+					#games th{
+						padding-left: 20px;
+						padding-bottom: 10px;
+					}
+					#games td#img{
+						margin: 0px;
+						padding: 0px;
+						background-repeat: no-repeat;
+					}
+					#games td#img img, #games #ver img{
+						vertical-align: middle;
+					}
+					#games td.textBack{
+						padding: 10px;
+					}
+					#games article{
+						margin: 20px;
+						margin-bottom: 47px;
+						padding: 10px;
+					}
+					#games #ver{
+						margin: 0;
+						padding: 0;
+					}
+
+				/*/JUEGO/*/
+					#game table{
+						margin: 20px;
+					}
+					#game td#img{
+						margin: 0;
+						padding: 0;
+					}
+					#game td#img img{
+						vertical-align: middle;
+					}
+					#game th{
+						padding-left: 20px;
+						vertical-align: middle;
+					}
+					#game td#info, #game #tag{
+						padding: 10px;	
+						vertical-align: middle;
+					}
+					#game td#valor input[type=submit]{
+						margin-left: 10%;
+					}
+					#game #act{
+						padding: 0;
+						margin: 0;
+						display: flex;
+					}
+					#game td#act ul{
+						margin: 0;
+						padding: 0;
+						list-style: none;
+						display: flex;
+						justify-content: flex-start;
+						overflow-x: scroll;
+					}
+					#game #act li.me{
+						margin-left: 3px;
+					}
+					#game #act img{
+						vertical-align: middle;
+					}
+					#game td#extra img{
+						margin-right: 10px;
+						margin-left: 10%;
+						vertical-align: middle;
+					}
+					#game td#minfo{
+						padding: 10px;
+						padding-top: 20px;
+						padding-bottom: 20px;
+					}
+					#game article{
+						position: relative;
+						top: 20px;
+						left: 0px;
+						margin: 20px;
+						margin-bottom: 47px;
+						padding: 10px;
+					}
+					#game #tag{
+						vertical-align: top;
+					}
+
+				/*/CONTACTO/*/
+					#contact .formBack{
+						position: absolute;
+						top: 29%;
+						left: 32%;
+						display: inline-block;
+					}
+					#contact #titulo{
+						position: relative;
+						top: 8px;
+						left: 205px;
+						display: inline-block;
+					}
+					#contact input[type=email]{
+						position: relative;
+						top: 15px;
+						left: 29px;
+						display: inline-block;
+					}
+					#contact input[type=text]{
+						position: relative;
+						top: 15px;
+						left: 35px;
+						display: inline-block;
+					}
+					#contact textarea{
+						position: relative;
+						top: 25px;
+						left: 29px;
+						display: inline-block;
+					}
+					#contact input[type=submit]{
+						position: relative;
+						float: right;
+						top: 30px;
+						right: 29px;
+						display: inline-block;
+					}
+
+				/*/LOGIN/*/
+					#login .formBack{
+						position: absolute;
+						top: 40%;
+						left: 40%;
+						display: inline-block;
+					}
+					#login #title{
+						position: relative;
+						top: 6px;
+						display: inline-block;
+					}
+					#login input[type=email]{
+						position: relative;
+						top: 10px;
+						display: inline-block;
+					}
+					#login input[type=password]{
+						position: relative;
+						top: 15px;
+						display: inline-block;
+					}
+					#login #sesion{
+						position: relative;
+						top: 20px;
+						display: inline-block;
+					}
+					#login input[type=submit], #login input[type=button]{
+						position: relative;
+						top: 25px;
+						display: inline-block;
+					}
+
+				/*/SIGNIN/*/
+					#signin .formBack{
+						position: absolute;
+						top: 38%;
+						left: 38%;
+						display: inline-block;
+					}
+					#signin #titulo{
+						position: absolute;
+						top: 8px;
+						left: 120px;
+						display: inline-block;
+					}
+					#signin #nombre{
+						position: absolute;
+						top: 37px;
+						left: 10px;
+						display: inline-block;
+					}
+					#signin #apellido{
+						position: absolute;
+						top: 62px;
+						left: 10px;
+						display: inline-block;
+					}
+					#signin #email{
+						position: absolute;
+						top: 87px;
+						left: 10px;
+						display: inline-block;
+					}
+					#signin #contraseña1{
+						position: absolute;
+						top: 112px;
+						left: 10px;
+						display: inline-block;
+					}
+					#signin #contraseña2{
+						position: absolute;
+						top: 137px;
+						left: 10px;
+						display: inline-block;
+					}
+					#signin input[name=Nombre]{
+						position: absolute;
+						top: 37px;
+						right: 10px;
+						display: inline-block;
+					}
+					#signin input[name=Apellido]{
+						position: absolute;
+						top: 62px;
+						right: 10px;
+						display: inline-block;
+					}
+					#signin input[type=email]{
+						position: absolute;
+						top: 87px;
+						right: 10px;
+						display: inline-block;
+					}
+					#signin input[type=password]#A{
+						position: absolute;
+						top: 112px;
+						right: 10px;
+						display: inline-block;
+					}
+					#signin input[type=password]#B{
+						position: absolute;
+						top: 137px;
+						right: 10px;
+						display: inline-block;
+					}
+					#signin input[type=submit]{
+						position: absolute;
+						top: 162px;
+						right: 10px;
+						display: inline-block;
+					}
+
+				/*/MI PERFIL/*/
+					#perfil article{
+						margin: 2.5%;
+						margin-top: 6%;
+						padding: 2%;
+					}
+					#perfil td{
+						vertical-align: top;
+						padding-bottom: 1%;
+						padding-top: 1%;
+					}
+					#perfil td#text{
+						padding-left: 3%;
+					}
+					#perfil td img{
+						vertical-align: middle;
+					}
+					#perfil td#cambiar{
+						vertical-align: bottom;
+					}
+
+				/*/EDIT/*/
+					#edit .formBack{
+						position: absolute;
+						top: 40%;
+						left: 40%;
+						display: inline-block;
+					}
+					#edit #titulo{
+						position: relative;
+						top: 15px;
+					}
+					#edit input[type=password]#A{
+						position: relative;
+						top: 25px;
+						display: inline-block;
+					}
+					#edit input[type=password]#B{
+						position: relative;
+						top: 35px;
+						display: inline-block;
+					}
+					#edit input[type=password]#C{
+						position: relative;
+						top: 45px;
+						display: inline-block;
+					}
+					#edit input[type=submit]{
+						position: relative;
+						top: 55px ;
+						display: inline-block;
+					}
+
+
+				/*/WISHLIST/*/
+					#wish{
+						position: relative;
+						top: 20px;
+					}
+					#wish table{
+						position: relative;
+						left: 5px;
+						top: 5px;
+						margin-right: 10px;
+						margin-bottom: 10px;
+					}
+					#wish th{
+						padding-left: 20px;
+						padding-bottom: 10px;
+					}
+					#wish td#img, #wish #nope{
+						margin: 0px;
+						padding: 0px;
+					}
+					#wish td#img img{
+						vertical-align: middle;
+					}
+					#wish td.textBack{
+						padding: 10px;
+					}
+					#wish article{
+						margin: 20px;
+						margin-bottom: 47px;
+						padding: 10px;
+					}
+
+				/*/CARRITO/*/
+					#carrito{
+						position: relative;
+						top: 20px;
+					}
+					#carrito table{
+						position: relative;
+						left: 5px;
+						top: 5px;
+						margin-right: 10px;
+						margin-bottom: 10px;
+					}
+					#carrito th{
+						padding-left: 20px;
+						padding-bottom: 10px;
+					}
+					#carrito td#img, #carrito #nope{
+						margin: 0px;
+						padding: 0px;
+					}
+					#carrito td#img img{
+						vertical-align: middle;
+					}
+					#carrito td.textBack{
+						padding: 10px;
+					}
+					#carrito article{
+						margin: 20px;
+						margin-bottom: 47px;
+						padding: 10px;
+					}
+
+
+				/*/MISJUEGOS/*/
+					#mygames{
+						position: relative;
+						top: 20px;
+					}
+					#mygames table{
+						position: relative;
+						left: 5px;
+						top: 5px;
+						margin-right: 10px;
+						margin-bottom: 10px;
+					}
+					#mygames th{
+						padding-left: 20px;
+						padding-bottom: 10px;
+					}
+					#mygames td#img, #mygames #nope{
+						margin: 0px;
+						padding: 0px;
+					}
+					#mygames td#img img{
+						vertical-align: middle;
+					}
+					#mygames td.textBack{
+						padding: 10px;
+					}
+					#mygames article{
+						margin: 20px;
+						margin-bottom: 3%;
+						padding: 10px;
+					}
+
+			/*/TAMAÑOS/*/
+				/*/TODO/*/
+					footer{
+						width: 100%;
+						height: 4%;
+					}
+				/*/NAV/*/
+					nav{
+						width: 100%;
+						height: 54px;
+					}
+					nav .wrap{
+						width: 100%;
+						height: 8%;
+					}
+					nav img[alt=Logo]{
+						width: 45px;
+						height: auto;
+					}
+					nav input[type=text]{
+						width: 45px;
+						height: 43px;
+						border: none;
+						border-radius: 100px;
+						outline: none;
+					}
+					nav input[type=text]:focus{
+						width: 100%;
+						cursor: text;
+					}
+					nav input[type=submit]{
+						width: 45px;
+						height: 45px;
+						border: none;
+						border-radius: 100px;
+						outline: none;
+					}
+					nav li.wrap img{
+						width: 30px;
+					}
+					nav #usrList{
+						border-bottom-left-radius: 5px;
+						border-bottom-right-radius: 5px;
+					}
+
+				/*/INDEX/*/
+					#index img#banner{
+						width: 100%
+					}
+					#index article{
+						border-radius: 10px;
+					}
+					#index img{
+						width: 280px;
+						height: 155px;
+					}
+
+				/*/JUEGOS/*/
+					#games td#img{
+						border: 0px;
+						width: 280px;
+						height: 155px;
+					}
+					#games article{
+						border-radius: 10px;
+					}
+					#games #precio{
+						width: 70px;
+					}
+					#games #ver{
+						width: 100px;
+						height: 60px;
+						min-height: 60px;
+						max-height: 60px;
+					}
+
+				/*/JUEGO/*/
+					#game table{
+						border-collapse: separate;
+						border-spacing: 5px;
+					}
+					#game td#act ul{
+						width: 450px;
+						height: 60px;
+					}
+					#game article{
+						border-radius: 10px;
+					}
+
+				/*/CONTACTO/*/
+					#contact .formBack{
+						width: 500px;
+						height: 350px;
+						border-radius: 10px;
+					}
+					#contact textarea{
+						resize: none;
+					}
+
+				/*/LOGIN/*/
+					#login .formBack{
+						width: 280px;
+						height: 150px;
+						border-radius: 10px;
+					}
+
+				/*/SIGNIN/*/
+					#signin .formBack{
+						width: 350px;
+						height: 200px;
+						border-radius: 10px;
+					}
+					#signin input[type=date]{
+						width: 168px;
+					}
+
+				/*/MI PERFIL/*/
+					#perfil article{
+						height: 465px;
+						border-radius: 10px;
+					}
+
+				/*/EDIT/*/
+					#edit .formBack{
+						width: 280px;
+						height: 170px;
+						border-radius: 10px;
+					}
+					#edit input[type=date]{
+						width: 168px;
+					}
+
+				/*/WISHLIST/*/
+					#wish td#img{
+						width: 280px;
+						height: 155px;
+						border: 0px;
+					}
+					#wish #nope{
+						width: 60px;
+						height: 60px;
+					}
+					#wish article{
+						border-radius: 10px;
+					}
+
+				/*/CARRITO/*/
+					#carrito td#img{
+						width: 280px;
+						height: 155px;
+						border: 0px;
+					}
+					#carrito #nope{
+						width: 60px;
+						height: 60px;
+					}
+					#carrito article{
+						border-radius: 10px;
+					}
+
+				/*/MISJUEGOS/*/
+					#mygames td#img{
+						width: 280px;
+						height: 155px;
+						border: 0px;
+					}
+					#mygames #nope{
+						width: 60px;
+						height: 60px;
+					}
+					#mygames article{
+						border-radius: 10px;
+					}
+
+			/*/OTROS/*/
+				::-webkit-scrollbar{
+					display: none;
+			}
 	}
 
-/*/PÁGINA/*/
-	/*/COLORES/*/
-		body{
-			background-color: var(--back-color-4);
-			color: var(--fore-color-1);
+/*/CELULAR/*/
+	@media only screen and (min-width: 1360px) {
+		/*/VARIABLES/*/
+			html{
+				/*/COLOR/*/
+					--back-color-1: #000;
+					--back-color-2: #222;
+					--back-color-3: #333;
+					--back-color-4: #444;
+					--back-color-5: #111;
+					--back-color-6: #777;
+
+					--fore-color-1: #FFF;
+					--fore-color-2: #777;
+
+				/*/TIPOGRAFÍA/*/
+					--font-1: Corbel;
+			}
+
+		/*/PÁGINA/*/
+			/*/COLORES/*/
+				body{
+					background-color: var(--back-color-4);
+					color: var(--fore-color-1);
+				}
+				nav{
+					background-color: var(--back-color-1);
+				}
+				nav input[type=text]{
+					background-color:  var(--back-color-4);
+					color:  var(--fore-color-2);
+				}
+				nav input[type=submit]{
+					background-color:  var(--back-color-4);
+				}
+				nav #usrList{
+					background-color:  var(--back-color-5);
+				}
+				footer{
+					background-color: var(--back-color-1);
+				}
+				.formBack{
+					background-color: var(--back-color-1);
+				}
+				.articleBack{
+					background-color:  var(--back-color-3);
+				}
+				.textBack{
+					background-color:  var(--back-color-2);
+				}
+				a{
+					color: var(--fore-color-1);
+				}
+
+			/*/TIPOGRAFÍAS/*/
+				/*/TODO/*/
+					body{
+						font-family: var(--font-1);
+					}
+					footer{
+						text-align: right;
+					}
+					.formBack{
+						text-align: left;
+					}
+					.textBack{
+						text-align: justify;
+					}
+
+				/*/NAV/*/
+					nav input[type=text]{
+						font-size: 20px;
+						font-weight: 100;
+						text-indent: 20px;
+					}
+					nav a{
+						text-decoration: none;
+					}
+					nav #usrList{
+						text-align: center;
+					}
+
+				/*/INDEX/*/
+					#index h2{
+						font-size: 35px;
+						text-align: left;
+					}
+					#index article{
+						text-align: right;
+					}
+					#index a{
+						text-decoration: none;
+						border-bottom: 1px dotted;
+					}
+					#index li a{
+						border-bottom: none;
+					}
+
+				/*/JUEGOS/*/
+					#games th{
+						font-size: 25px;
+					}
+					#games #precio{
+						font-size: 18px;
+						text-align: center;
+					}
+
+				/*/JUEGO/*/
+					#game th{
+						font-size: 40px;
+						text-align: center;
+					}
+					#game td{
+						text-align: justify;
+						font-size: 20px;
+					}
+					#game td#valor{
+						text-align: center;
+					}
+					#game td#extra{
+						text-align: center;
+					}
+					#game #precio{
+						font-size: 25px;
+						text-align: center;
+					}
+					#game #tag{
+						font-size: 15px;
+					}
+
+				/*/CONTACTO/*/
+					#contact #titulo{
+						font-size: 20px;
+					}
+
+				/*/LOGIN/*/
+					#login .formBack{
+						text-align: center;
+					}
+
+				/*/SIGNIN/*/
+					#signin #titulo{
+						font-size: 20px;
+					}
+
+				/*/PERFIL/*/
+					#perfil{
+						text-align: justify;
+					}
+					#perfil #cambiar{
+						text-align: right;
+					}
+
+				/*/EDIT/*/
+					#edit .formBack{
+						text-align: center;
+					}
+
+				/*/WISHLIST/*/
+					#wish th{
+						font-size: 25px;
+					}
+
+				/*/CARRITO/*/
+					#carrito th{
+						font-size: 25px;
+					}
+					#carrito td#comprar{
+						text-align: right;
+					}
+
+				/*/MISJUEGOS/*/
+					#mygames th{
+						font-size: 25px;
+					}
+
+			/*/POSISIONAMIENTO/*/
+				/*/TODO/*/
+					body{
+						margin: 0;
+					}
+					main{
+						margin-top: 3.9%;
+						margin-bottom: 30px;
+					}
+					footer{
+						position: fixed;
+						bottom: 0px;
+						left: 0px;
+						margin: 0px;
+						z-index: 9999;
+					}
+					footer span{
+						position: relative;
+						bottom: -5px;
+						right: 10px;
+					}
+
+				/*/NAV/*/
+					nav{
+						position: fixed;
+						top: 0px;
+						left: 0px;
+						margin: 0px;
+						z-index: 9999;
+					}
+					nav .leftItem{
+						margin: 0.3%;
+					}
+					nav #usuario{
+						position: relative;
+						float: right;
+						margin: 0.3%;
+						margin-right: 0px;
+					}
+					nav .wrap{
+						position: relative;
+						float: right;
+						top: 4px;
+						margin-left: 4px;
+						margin-right: 4px;
+						padding: 0;
+						display: inline-block;
+					}
+					nav input[type=text]{
+						position: relative;
+						float: right;
+						margin-right: 1px;
+						display: inline-block;
+						z-index: 4;
+						opacity: 0;
+						cursor: pointer;
+					}
+					nav input[type=text]:focus{
+						z-index: 2;
+						opacity: 1;
+						cursor: text;
+					}
+					nav input[type=submit]{
+						position: absolute;
+						top: 0px;
+						right: 0px;
+						display: inline-block;
+						z-index: 1;
+						cursor: pointer;
+					}
+					nav li.wrap img{
+						position: absolute;
+						top: 7px;
+						right: 7px;
+						z-index: 3;
+					}
+					nav ul{
+						margin: 0;
+						padding: 0;
+						list-style: none;
+						display: flex;
+						justify-content: flex-start;
+					}
+					nav #usrList{
+						margin-top: 1px;
+						padding-bottom: 5px;
+						display: none;
+						justify-content: flex-start;
+						flex-direction: column;
+					}
+					nav li#usuario:hover #usrList{
+						display: flex;
+					}
+					nav #usrList li{
+						margin-top: 5px;
+					}
+
+				/*/INDEX/*/
+					#index table{
+						vertical-align: middle;
+						overflow-x: auto;
+					}
+					#index h2{
+						margin-bottom: 3.5%;
+						padding-left: 2%;
+					}
+					#index article{
+						margin: 6%;
+						padding: 2.5%;
+						padding-top: 1%;
+					}
+					#index ul{
+						margin: 0;
+						padding: 0;
+						display: flex;
+						justify-content: flex-start;
+						list-style: none;
+						overflow-y: none;
+					}
+					#index li{
+						margin: 0.2%;
+						margin-top: 0;
+						margin-bottom: 0;
+						overflow-y: none;
+					}
+					
+				/*/JUEGOS/*/
+					#games{
+						position: relative;
+						top: 20px;
+					}
+					#games table{
+						position: relative;
+						left: 5px;
+						top: 5px;
+						margin-right: 10px;
+						margin-bottom: 10px;
+					}
+					#games th{
+						padding-left: 20px;
+						padding-bottom: 10px;
+					}
+					#games td#img{
+						margin: 0px;
+						padding: 0px;
+						background-repeat: no-repeat;
+					}
+					#games td#img img, #games #ver img{
+						vertical-align: middle;
+					}
+					#games td.textBack{
+						padding: 10px;
+					}
+					#games article{
+						margin: 20px;
+						margin-bottom: 47px;
+						padding: 10px;
+					}
+					#games #ver{
+						margin: 0;
+						padding: 0;
+					}
+
+				/*/JUEGO/*/
+					#game table{
+						margin: 20px;
+					}
+					#game td#img{
+						margin: 0;
+						padding: 0;
+					}
+					#game td#img img{
+						vertical-align: middle;
+					}
+					#game th{
+						padding-left: 20px;
+						vertical-align: middle;
+					}
+					#game td#info, #game #tag{
+						padding: 10px;	
+						vertical-align: middle;
+					}
+					#game td#valor input[type=submit]{
+						margin-left: 10%;
+					}
+					#game #act{
+						padding: 0;
+						margin: 0;
+						display: flex;
+					}
+					#game td#act ul{
+						margin: 0;
+						padding: 0;
+						list-style: none;
+						display: flex;
+						justify-content: flex-start;
+						overflow-x: scroll;
+					}
+					#game #act li.me{
+						margin-left: 3px;
+					}
+					#game #act img{
+						vertical-align: middle;
+					}
+					#game td#extra img{
+						margin-right: 10px;
+						margin-left: 10%;
+						vertical-align: middle;
+					}
+					#game td#minfo{
+						padding: 10px;
+						padding-top: 20px;
+						padding-bottom: 20px;
+					}
+					#game article{
+						position: relative;
+						top: 20px;
+						left: 0px;
+						margin: 20px;
+						margin-bottom: 47px;
+						padding: 10px;
+					}
+					#game #tag{
+						vertical-align: top;
+					}
+
+				/*/CONTACTO/*/
+					#contact .formBack{
+						position: absolute;
+						top: 29%;
+						left: 32%;
+						display: inline-block;
+					}
+					#contact #titulo{
+						position: relative;
+						top: 8px;
+						left: 205px;
+						display: inline-block;
+					}
+					#contact input[type=email]{
+						position: relative;
+						top: 15px;
+						left: 29px;
+						display: inline-block;
+					}
+					#contact input[type=text]{
+						position: relative;
+						top: 15px;
+						left: 35px;
+						display: inline-block;
+					}
+					#contact textarea{
+						position: relative;
+						top: 25px;
+						left: 29px;
+						display: inline-block;
+					}
+					#contact input[type=submit]{
+						position: relative;
+						float: right;
+						top: 30px;
+						right: 29px;
+						display: inline-block;
+					}
+
+				/*/LOGIN/*/
+					#login .formBack{
+						position: absolute;
+						top: 40%;
+						left: 40%;
+						display: inline-block;
+					}
+					#login #title{
+						position: relative;
+						top: 6px;
+						display: inline-block;
+					}
+					#login input[type=email]{
+						position: relative;
+						top: 10px;
+						display: inline-block;
+					}
+					#login input[type=password]{
+						position: relative;
+						top: 15px;
+						display: inline-block;
+					}
+					#login #sesion{
+						position: relative;
+						top: 20px;
+						display: inline-block;
+					}
+					#login input[type=submit], #login input[type=button]{
+						position: relative;
+						top: 25px;
+						display: inline-block;
+					}
+
+				/*/SIGNIN/*/
+					#signin .formBack{
+						position: absolute;
+						top: 38%;
+						left: 38%;
+						display: inline-block;
+					}
+					#signin #titulo{
+						position: absolute;
+						top: 8px;
+						left: 120px;
+						display: inline-block;
+					}
+					#signin #nombre{
+						position: absolute;
+						top: 37px;
+						left: 10px;
+						display: inline-block;
+					}
+					#signin #apellido{
+						position: absolute;
+						top: 62px;
+						left: 10px;
+						display: inline-block;
+					}
+					#signin #email{
+						position: absolute;
+						top: 87px;
+						left: 10px;
+						display: inline-block;
+					}
+					#signin #contraseña1{
+						position: absolute;
+						top: 112px;
+						left: 10px;
+						display: inline-block;
+					}
+					#signin #contraseña2{
+						position: absolute;
+						top: 137px;
+						left: 10px;
+						display: inline-block;
+					}
+					#signin input[name=Nombre]{
+						position: absolute;
+						top: 37px;
+						right: 10px;
+						display: inline-block;
+					}
+					#signin input[name=Apellido]{
+						position: absolute;
+						top: 62px;
+						right: 10px;
+						display: inline-block;
+					}
+					#signin input[type=email]{
+						position: absolute;
+						top: 87px;
+						right: 10px;
+						display: inline-block;
+					}
+					#signin input[type=password]#A{
+						position: absolute;
+						top: 112px;
+						right: 10px;
+						display: inline-block;
+					}
+					#signin input[type=password]#B{
+						position: absolute;
+						top: 137px;
+						right: 10px;
+						display: inline-block;
+					}
+					#signin input[type=submit]{
+						position: absolute;
+						top: 162px;
+						right: 10px;
+						display: inline-block;
+					}
+
+				/*/MI PERFIL/*/
+					#perfil article{
+						margin: 2.5%;
+						margin-top: 6%;
+						padding: 2%;
+					}
+					#perfil td{
+						vertical-align: top;
+						padding-bottom: 1%;
+						padding-top: 1%;
+					}
+					#perfil td#text{
+						padding-left: 3%;
+					}
+					#perfil td img{
+						vertical-align: middle;
+					}
+					#perfil td#cambiar{
+						vertical-align: bottom;
+					}
+
+				/*/EDIT/*/
+					#edit .formBack{
+						position: absolute;
+						top: 40%;
+						left: 40%;
+						display: inline-block;
+					}
+					#edit #titulo{
+						position: relative;
+						top: 15px;
+					}
+					#edit input[type=password]#A{
+						position: relative;
+						top: 25px;
+						display: inline-block;
+					}
+					#edit input[type=password]#B{
+						position: relative;
+						top: 35px;
+						display: inline-block;
+					}
+					#edit input[type=password]#C{
+						position: relative;
+						top: 45px;
+						display: inline-block;
+					}
+					#edit input[type=submit]{
+						position: relative;
+						top: 55px ;
+						display: inline-block;
+					}
+
+
+				/*/WISHLIST/*/
+					#wish{
+						position: relative;
+						top: 20px;
+					}
+					#wish table{
+						position: relative;
+						left: 5px;
+						top: 5px;
+						margin-right: 10px;
+						margin-bottom: 10px;
+					}
+					#wish th{
+						padding-left: 20px;
+						padding-bottom: 10px;
+					}
+					#wish td#img, #wish #nope{
+						margin: 0px;
+						padding: 0px;
+					}
+					#wish td#img img{
+						vertical-align: middle;
+					}
+					#wish td.textBack{
+						padding: 10px;
+					}
+					#wish article{
+						margin: 20px;
+						margin-bottom: 47px;
+						padding: 10px;
+					}
+
+				/*/CARRITO/*/
+					#carrito{
+						position: relative;
+						top: 20px;
+					}
+					#carrito table{
+						position: relative;
+						left: 5px;
+						top: 5px;
+						margin-right: 10px;
+						margin-bottom: 10px;
+					}
+					#carrito th{
+						padding-left: 20px;
+						padding-bottom: 10px;
+					}
+					#carrito td#img, #carrito #nope{
+						margin: 0px;
+						padding: 0px;
+					}
+					#carrito td#img img{
+						vertical-align: middle;
+					}
+					#carrito td.textBack{
+						padding: 10px;
+					}
+					#carrito article{
+						margin: 20px;
+						margin-bottom: 47px;
+						padding: 10px;
+					}
+
+
+				/*/MISJUEGOS/*/
+					#mygames{
+						position: relative;
+						top: 20px;
+					}
+					#mygames table{
+						position: relative;
+						left: 5px;
+						top: 5px;
+						margin-right: 10px;
+						margin-bottom: 10px;
+					}
+					#mygames th{
+						padding-left: 20px;
+						padding-bottom: 10px;
+					}
+					#mygames td#img, #mygames #nope{
+						margin: 0px;
+						padding: 0px;
+					}
+					#mygames td#img img{
+						vertical-align: middle;
+					}
+					#mygames td.textBack{
+						padding: 10px;
+					}
+					#mygames article{
+						margin: 20px;
+						margin-bottom: 3%;
+						padding: 10px;
+					}
+
+			/*/TAMAÑOS/*/
+				/*/TODO/*/
+					footer{
+						width: 100%;
+						height: 4%;
+					}
+				/*/NAV/*/
+					nav{
+						width: 100%;
+						height: 54px;
+					}
+					nav .wrap{
+						width: 100%;
+						height: 8%;
+					}
+					nav img[alt=Logo]{
+						width: 45px;
+						height: auto;
+					}
+					nav input[type=text]{
+						width: 45px;
+						height: 43px;
+						border: none;
+						border-radius: 100px;
+						outline: none;
+					}
+					nav input[type=text]:focus{
+						width: 100%;
+						cursor: text;
+					}
+					nav input[type=submit]{
+						width: 45px;
+						height: 45px;
+						border: none;
+						border-radius: 100px;
+						outline: none;
+					}
+					nav li.wrap img{
+						width: 30px;
+					}
+					nav #usrList{
+						border-bottom-left-radius: 5px;
+						border-bottom-right-radius: 5px;
+					}
+
+				/*/INDEX/*/
+					#index img#banner{
+						width: 100%
+					}
+					#index article{
+						border-radius: 10px;
+					}
+					#index img{
+						width: 280px;
+						height: 155px;
+					}
+
+				/*/JUEGOS/*/
+					#games td#img{
+						border: 0px;
+						width: 280px;
+						height: 155px;
+					}
+					#games article{
+						border-radius: 10px;
+					}
+					#games #precio{
+						width: 70px;
+					}
+					#games #ver{
+						width: 100px;
+						height: 60px;
+						min-height: 60px;
+						max-height: 60px;
+					}
+
+				/*/JUEGO/*/
+					#game table{
+						border-collapse: separate;
+						border-spacing: 5px;
+					}
+					#game td#act ul{
+						width: 450px;
+						height: 60px;
+					}
+					#game article{
+						border-radius: 10px;
+					}
+
+				/*/CONTACTO/*/
+					#contact .formBack{
+						width: 500px;
+						height: 350px;
+						border-radius: 10px;
+					}
+					#contact textarea{
+						resize: none;
+					}
+
+				/*/LOGIN/*/
+					#login .formBack{
+						width: 280px;
+						height: 150px;
+						border-radius: 10px;
+					}
+
+				/*/SIGNIN/*/
+					#signin .formBack{
+						width: 350px;
+						height: 200px;
+						border-radius: 10px;
+					}
+					#signin input[type=date]{
+						width: 168px;
+					}
+
+				/*/MI PERFIL/*/
+					#perfil article{
+						height: 465px;
+						border-radius: 10px;
+					}
+
+				/*/EDIT/*/
+					#edit .formBack{
+						width: 280px;
+						height: 170px;
+						border-radius: 10px;
+					}
+					#edit input[type=date]{
+						width: 168px;
+					}
+
+				/*/WISHLIST/*/
+					#wish td#img{
+						width: 280px;
+						height: 155px;
+						border: 0px;
+					}
+					#wish #nope{
+						width: 60px;
+						height: 60px;
+					}
+					#wish article{
+						border-radius: 10px;
+					}
+
+				/*/CARRITO/*/
+					#carrito td#img{
+						width: 280px;
+						height: 155px;
+						border: 0px;
+					}
+					#carrito #nope{
+						width: 60px;
+						height: 60px;
+					}
+					#carrito article{
+						border-radius: 10px;
+					}
+
+				/*/MISJUEGOS/*/
+					#mygames td#img{
+						width: 280px;
+						height: 155px;
+						border: 0px;
+					}
+					#mygames #nope{
+						width: 60px;
+						height: 60px;
+					}
+					#mygames article{
+						border-radius: 10px;
+					}
+
+			/*/OTROS/*/
+				::-webkit-scrollbar{
+					display: none;
 		}
-		nav{
-			background-color: var(--back-color-1);
-		}
-		nav input[type=text]{
-			background-color:  var(--back-color-4);
-			color:  var(--fore-color-2);
-		}
-		nav input[type=submit]{
-			background-color:  var(--back-color-4);
-		}
-		nav #usrList{
-			background-color:  var(--back-color-5);
-		}
-		footer{
-			background-color: var(--back-color-1);
-		}
-		.formBack{
-			background-color: var(--back-color-1);
-		}
-		.articleBack{
-			background-color:  var(--back-color-3);
-		}
-		.textBack{
-			background-color:  var(--back-color-2);
-		}
-		a{
-			color: var(--fore-color-1);
-		}
-
-	/*/TIPOGRAFÍAS/*/
-		/*/TODO/*/
-			body{
-				font-family: var(--font-1);
-			}
-			footer{
-				text-align: right;
-			}
-			.formBack{
-				text-align: left;
-			}
-			.textBack{
-				text-align: justify;
-			}
-
-		/*/NAV/*/
-			nav input[type=text]{
-				font-size: 20px;
-				font-weight: 100;
-				text-indent: 20px;
-			}
-			nav a{
-				text-decoration: none;
-			}
-			nav #usrList{
-				text-align: center;
-			}
-
-		/*/INDEX/*/
-			#index h2{
-				font-size: 35px;
-				text-align: left;
-			}
-			#index article{
-				text-align: right;
-			}
-			#index a{
-				text-decoration: none;
-				border-bottom: 1px dotted;
-			}
-			#index li a{
-				border-bottom: none;
-			}
-
-		/*/JUEGOS/*/
-			#games th{
-				font-size: 25px;
-			}
-			#games #precio{
-				font-size: 18px;
-				text-align: center;
-			}
-
-		/*/JUEGO/*/
-			#game th{
-				font-size: 40px;
-				text-align: center;
-			}
-			#game td{
-				text-align: justify;
-				font-size: 20px;
-			}
-			#game td#valor{
-				text-align: center;
-			}
-			#game td#extra{
-				text-align: center;
-			}
-			#game #precio{
-				font-size: 25px;
-				text-align: center;
-			}
-			#game #tag{
-				font-size: 15px;
-			}
-
-		/*/CONTACTO/*/
-			#contact #titulo{
-				font-size: 20px;
-			}
-
-		/*/LOGIN/*/
-			#login .formBack{
-				text-align: center;
-			}
-
-		/*/SIGNIN/*/
-			#signin #titulo{
-				font-size: 20px;
-			}
-
-		/*/PERFIL/*/
-			#perfil{
-				text-align: justify;
-			}
-			#perfil #cambiar{
-				text-align: right;
-			}
-
-		/*/EDIT/*/
-			#edit .formBack{
-				text-align: center;
-			}
-
-		/*/WISHLIST/*/
-			#wish th{
-				font-size: 25px;
-			}
-
-		/*/CARRITO/*/
-			#carrito th{
-				font-size: 25px;
-			}
-			#carrito td#comprar{
-				text-align: right;
-			}
-
-		/*/MISJUEGOS/*/
-			#mygames th{
-				font-size: 25px;
-			}
-
-	/*/POSISIONAMIENTO/*/
-		/*/TODO/*/
-			body{
-				margin: 0;
-			}
-			main{
-				margin-top: 3.9%;
-				margin-bottom: 30px;
-			}
-			footer{
-				position: fixed;
-				bottom: 0px;
-				left: 0px;
-				margin: 0px;
-				z-index: 9999;
-			}
-			footer span{
-				position: relative;
-				bottom: -5px;
-				right: 10px;
-			}
-
-		/*/NAV/*/
-			nav{
-				position: fixed;
-				top: 0px;
-				left: 0px;
-				margin: 0px;
-				z-index: 9999;
-			}
-			nav .leftItem{
-				margin: 0.3%;
-			}
-			nav #usuario{
-				position: relative;
-				float: right;
-				margin: 0.3%;
-				margin-right: 0px;
-			}
-			nav .wrap{
-				position: relative;
-				float: right;
-				top: 4px;
-				margin-left: 4px;
-				margin-right: 4px;
-				padding: 0;
-				display: inline-block;
-			}
-			nav input[type=text]{
-				position: relative;
-				float: right;
-				margin-right: 1px;
-				display: inline-block;
-				z-index: 4;
-				opacity: 0;
-				cursor: pointer;
-			}
-			nav input[type=text]:focus{
-				z-index: 2;
-				opacity: 1;
-				cursor: text;
-			}
-			nav input[type=submit]{
-				position: absolute;
-				top: 0px;
-				right: 0px;
-				display: inline-block;
-				z-index: 1;
-				cursor: pointer;
-			}
-			nav li.wrap img{
-				position: absolute;
-				top: 7px;
-				right: 7px;
-				z-index: 3;
-			}
-			nav ul{
-				margin: 0;
-				padding: 0;
-				list-style: none;
-				display: flex;
-				justify-content: flex-start;
-			}
-			nav #usrList{
-				margin-top: 1px;
-				padding-bottom: 5px;
-				display: none;
-				justify-content: flex-start;
-				flex-direction: column;
-			}
-			nav li#usuario:hover #usrList{
-				display: flex;
-			}
-			nav #usrList li{
-				margin-top: 5px;
-			}
-
-		/*/INDEX/*/
-			#index table{
-				vertical-align: middle;
-				overflow-x: auto;
-			}
-			#index h2{
-				margin-bottom: 3.5%;
-				padding-left: 2%;
-			}
-			#index article{
-				margin: 6%;
-				padding: 2.5%;
-				padding-top: 1%;
-			}
-			#index ul{
-				margin: 0;
-				padding: 0;
-				display: flex;
-				justify-content: flex-start;
-				list-style: none;
-				overflow-y: none;
-			}
-			#index li{
-				margin: 0.2%;
-				margin-top: 0;
-				margin-bottom: 0;
-				overflow-y: none;
-			}
-			
-		/*/JUEGOS/*/
-			#games{
-				position: relative;
-				top: 20px;
-			}
-			#games table{
-				position: relative;
-				left: 5px;
-				top: 5px;
-				margin-right: 10px;
-				margin-bottom: 10px;
-			}
-			#games th{
-				padding-left: 20px;
-				padding-bottom: 10px;
-			}
-			#games td#img{
-				margin: 0px;
-				padding: 0px;
-				background-repeat: no-repeat;
-			}
-			#games td#img img, #games #ver img{
-				vertical-align: middle;
-			}
-			#games td.textBack{
-				padding: 10px;
-			}
-			#games article{
-				margin: 20px;
-				margin-bottom: 47px;
-				padding: 10px;
-			}
-			#games #ver{
-				margin: 0;
-				padding: 0;
-			}
-
-		/*/JUEGO/*/
-			#game table{
-				margin: 20px;
-			}
-			#game td#img{
-				margin: 0;
-				padding: 0;
-			}
-			#game td#img img{
-				vertical-align: middle;
-			}
-			#game th{
-				padding-left: 20px;
-				vertical-align: middle;
-			}
-			#game td#info, #game #tag{
-				padding: 10px;	
-				vertical-align: middle;
-			}
-			#game td#valor input[type=submit]{
-				margin-left: 10%;
-			}
-			#game #act{
-				padding: 0;
-				margin: 0;
-				display: flex;
-			}
-			#game td#act ul{
-				margin: 0;
-				padding: 0;
-				list-style: none;
-				display: flex;
-				justify-content: flex-start;
-				overflow-x: scroll;
-			}
-			#game #act li.me{
-				margin-left: 3px;
-			}
-			#game #act img{
-				vertical-align: middle;
-			}
-			#game td#extra img{
-				margin-right: 10px;
-				margin-left: 10%;
-				vertical-align: middle;
-			}
-			#game td#minfo{
-				padding: 10px;
-				padding-top: 20px;
-				padding-bottom: 20px;
-			}
-			#game article{
-				position: relative;
-				top: 20px;
-				left: 0px;
-				margin: 20px;
-				margin-bottom: 47px;
-				padding: 10px;
-			}
-			#game #tag{
-				vertical-align: top;
-			}
-
-		/*/CONTACTO/*/
-			#contact .formBack{
-				position: absolute;
-				top: 29%;
-				left: 32%;
-				display: inline-block;
-			}
-			#contact #titulo{
-				position: relative;
-				top: 8px;
-				left: 205px;
-				display: inline-block;
-			}
-			#contact input[type=email]{
-				position: relative;
-				top: 15px;
-				left: 29px;
-				display: inline-block;
-			}
-			#contact input[type=text]{
-				position: relative;
-				top: 15px;
-				left: 35px;
-				display: inline-block;
-			}
-			#contact textarea{
-				position: relative;
-				top: 25px;
-				left: 29px;
-				display: inline-block;
-			}
-			#contact input[type=submit]{
-				position: relative;
-				float: right;
-				top: 30px;
-				right: 29px;
-				display: inline-block;
-			}
-
-		/*/LOGIN/*/
-			#login .formBack{
-				position: absolute;
-				top: 40%;
-				left: 40%;
-				display: inline-block;
-			}
-			#login #title{
-				position: relative;
-				top: 6px;
-				display: inline-block;
-			}
-			#login input[type=email]{
-				position: relative;
-				top: 10px;
-				display: inline-block;
-			}
-			#login input[type=password]{
-				position: relative;
-				top: 15px;
-				display: inline-block;
-			}
-			#login #sesion{
-				position: relative;
-				top: 20px;
-				display: inline-block;
-			}
-			#login input[type=submit], #login input[type=button]{
-				position: relative;
-				top: 25px;
-				display: inline-block;
-			}
-
-		/*/SIGNIN/*/
-			#signin .formBack{
-				position: absolute;
-				top: 38%;
-				left: 38%;
-				display: inline-block;
-			}
-			#signin #titulo{
-				position: absolute;
-				top: 8px;
-				left: 120px;
-				display: inline-block;
-			}
-			#signin #nombre{
-				position: absolute;
-				top: 37px;
-				left: 10px;
-				display: inline-block;
-			}
-			#signin #apellido{
-				position: absolute;
-				top: 62px;
-				left: 10px;
-				display: inline-block;
-			}
-			#signin #email{
-				position: absolute;
-				top: 87px;
-				left: 10px;
-				display: inline-block;
-			}
-			#signin #contraseña1{
-				position: absolute;
-				top: 112px;
-				left: 10px;
-				display: inline-block;
-			}
-			#signin #contraseña2{
-				position: absolute;
-				top: 137px;
-				left: 10px;
-				display: inline-block;
-			}
-			#signin input[name=Nombre]{
-				position: absolute;
-				top: 37px;
-				right: 10px;
-				display: inline-block;
-			}
-			#signin input[name=Apellido]{
-				position: absolute;
-				top: 62px;
-				right: 10px;
-				display: inline-block;
-			}
-			#signin input[type=email]{
-				position: absolute;
-				top: 87px;
-				right: 10px;
-				display: inline-block;
-			}
-			#signin input[type=password]#A{
-				position: absolute;
-				top: 112px;
-				right: 10px;
-				display: inline-block;
-			}
-			#signin input[type=password]#B{
-				position: absolute;
-				top: 137px;
-				right: 10px;
-				display: inline-block;
-			}
-			#signin input[type=submit]{
-				position: absolute;
-				top: 162px;
-				right: 10px;
-				display: inline-block;
-			}
-
-		/*/MI PERFIL/*/
-			#perfil article{
-				margin: 2.5%;
-				margin-top: 6%;
-				padding: 2%;
-			}
-			#perfil td{
-				vertical-align: top;
-				padding-bottom: 1%;
-				padding-top: 1%;
-			}
-			#perfil td#text{
-				padding-left: 3%;
-			}
-			#perfil td img{
-				vertical-align: middle;
-			}
-			#perfil td#cambiar{
-				vertical-align: bottom;
-			}
-
-		/*/EDIT/*/
-			#edit .formBack{
-				position: absolute;
-				top: 40%;
-				left: 40%;
-				display: inline-block;
-			}
-			#edit #titulo{
-				position: relative;
-				top: 15px;
-			}
-			#edit input[type=password]#A{
-				position: relative;
-				top: 25px;
-				display: inline-block;
-			}
-			#edit input[type=password]#B{
-				position: relative;
-				top: 35px;
-				display: inline-block;
-			}
-			#edit input[type=password]#C{
-				position: relative;
-				top: 45px;
-				display: inline-block;
-			}
-			#edit input[type=submit]{
-				position: relative;
-				top: 55px ;
-				display: inline-block;
-			}
-
-
-		/*/WISHLIST/*/
-			#wish{
-				position: relative;
-				top: 20px;
-			}
-			#wish table{
-				position: relative;
-				left: 5px;
-				top: 5px;
-				margin-right: 10px;
-				margin-bottom: 10px;
-			}
-			#wish th{
-				padding-left: 20px;
-				padding-bottom: 10px;
-			}
-			#wish td#img, #wish #nope{
-				margin: 0px;
-				padding: 0px;
-			}
-			#wish td#img img{
-				vertical-align: middle;
-			}
-			#wish td.textBack{
-				padding: 10px;
-			}
-			#wish article{
-				margin: 20px;
-				margin-bottom: 47px;
-				padding: 10px;
-			}
-
-		/*/CARRITO/*/
-			#carrito{
-				position: relative;
-				top: 20px;
-			}
-			#carrito table{
-				position: relative;
-				left: 5px;
-				top: 5px;
-				margin-right: 10px;
-				margin-bottom: 10px;
-			}
-			#carrito th{
-				padding-left: 20px;
-				padding-bottom: 10px;
-			}
-			#carrito td#img, #carrito #nope{
-				margin: 0px;
-				padding: 0px;
-			}
-			#carrito td#img img{
-				vertical-align: middle;
-			}
-			#carrito td.textBack{
-				padding: 10px;
-			}
-			#carrito article{
-				margin: 20px;
-				margin-bottom: 47px;
-				padding: 10px;
-			}
-
-
-		/*/MISJUEGOS/*/
-			#mygames{
-				position: relative;
-				top: 20px;
-			}
-			#mygames table{
-				position: relative;
-				left: 5px;
-				top: 5px;
-				margin-right: 10px;
-				margin-bottom: 10px;
-			}
-			#mygames th{
-				padding-left: 20px;
-				padding-bottom: 10px;
-			}
-			#mygames td#img, #mygames #nope{
-				margin: 0px;
-				padding: 0px;
-			}
-			#mygames td#img img{
-				vertical-align: middle;
-			}
-			#mygames td.textBack{
-				padding: 10px;
-			}
-			#mygames article{
-				margin: 20px;
-				margin-bottom: 3%;
-				padding: 10px;
-			}
-
-	/*/TAMAÑOS/*/
-		/*/TODO/*/
-			footer{
-				width: 100%;
-				height: 4%;
-			}
-		/*/NAV/*/
-			nav{
-				width: 100%;
-				height: 54px;
-			}
-			nav .wrap{
-				width: 100%;
-				height: 8%;
-			}
-			nav img[alt=Logo]{
-				width: 45px;
-				height: auto;
-			}
-			nav input[type=text]{
-				width: 45px;
-				height: 43px;
-				border: none;
-				border-radius: 100px;
-				outline: none;
-			}
-			nav input[type=text]:focus{
-				width: 100%;
-				cursor: text;
-			}
-			nav input[type=submit]{
-				width: 45px;
-				height: 45px;
-				border: none;
-				border-radius: 100px;
-				outline: none;
-			}
-			nav li.wrap img{
-				width: 30px;
-			}
-			nav #usrList{
-				border-bottom-left-radius: 5px;
-				border-bottom-right-radius: 5px;
-			}
-
-		/*/INDEX/*/
-			#index img#banner{
-				width: 100%
-			}
-			#index article{
-				border-radius: 10px;
-			}
-			#index img{
-				width: 280px;
-				height: 155px;
-			}
-
-		/*/JUEGOS/*/
-			#games td#img{
-				border: 0px;
-				width: 280px;
-				height: 155px;
-			}
-			#games article{
-				border-radius: 10px;
-			}
-			#games #precio{
-				width: 70px;
-			}
-			#games #ver{
-				width: 100px;
-				height: 60px;
-				min-height: 60px;
-				max-height: 60px;
-			}
-
-		/*/JUEGO/*/
-			#game table{
-				border-collapse: separate;
-				border-spacing: 5px;
-			}
-			#game td#act ul{
-				width: 450px;
-				height: 60px;
-			}
-			#game article{
-				border-radius: 10px;
-			}
-
-		/*/CONTACTO/*/
-			#contact .formBack{
-				width: 500px;
-				height: 350px;
-				border-radius: 10px;
-			}
-			#contact textarea{
-				resize: none;
-			}
-
-		/*/LOGIN/*/
-			#login .formBack{
-				width: 280px;
-				height: 150px;
-				border-radius: 10px;
-			}
-
-		/*/SIGNIN/*/
-			#signin .formBack{
-				width: 350px;
-				height: 200px;
-				border-radius: 10px;
-			}
-			#signin input[type=date]{
-				width: 168px;
-			}
-
-		/*/MI PERFIL/*/
-			#perfil article{
-				height: 465px;
-				border-radius: 10px;
-			}
-
-		/*/EDIT/*/
-			#edit .formBack{
-				width: 280px;
-				height: 170px;
-				border-radius: 10px;
-			}
-			#edit input[type=date]{
-				width: 168px;
-			}
-
-		/*/WISHLIST/*/
-			#wish td#img{
-				width: 280px;
-				height: 155px;
-				border: 0px;
-			}
-			#wish #nope{
-				width: 60px;
-				height: 60px;
-			}
-			#wish article{
-				border-radius: 10px;
-			}
-
-		/*/CARRITO/*/
-			#carrito td#img{
-				width: 280px;
-				height: 155px;
-				border: 0px;
-			}
-			#carrito #nope{
-				width: 60px;
-				height: 60px;
-			}
-			#carrito article{
-				border-radius: 10px;
-			}
-
-		/*/MISJUEGOS/*/
-			#mygames td#img{
-				width: 280px;
-				height: 155px;
-				border: 0px;
-			}
-			#mygames #nope{
-				width: 60px;
-				height: 60px;
-			}
-			#mygames article{
-				border-radius: 10px;
-			}
-
-	/*/OTROS/*/
-		::-webkit-scrollbar{
-			display: none;
-		}
-}
-@media only screen and (min-width: 1360px) {
-/*/VARIABLES/*/
-	html{
-		/*/COLOR/*/
-			--back-color-1: #000;
-			--back-color-2: #222;
-			--back-color-3: #333;
-			--back-color-4: #444;
-			--back-color-5: #111;
-			--back-color-6: #777;
-
-			--fore-color-1: #FFF;
-			--fore-color-2: #777;
-
-		/*/TIPOGRAFÍA/*/
-			--font-1: Corbel;
 	}
-
-/*/PÁGINA/*/
-	/*/COLORES/*/
-		body{
-			background-color: var(--back-color-4);
-			color: var(--fore-color-1);
-		}
-		nav{
-			background-color: var(--back-color-1);
-		}
-		nav input[type=text]{
-			background-color:  var(--back-color-4);
-			color:  var(--fore-color-2);
-		}
-		nav input[type=submit]{
-			background-color:  var(--back-color-4);
-		}
-		nav #usrList{
-			background-color:  var(--back-color-5);
-		}
-		footer{
-			background-color: var(--back-color-1);
-		}
-		.formBack{
-			background-color: var(--back-color-1);
-		}
-		.articleBack{
-			background-color:  var(--back-color-3);
-		}
-		.textBack{
-			background-color:  var(--back-color-2);
-		}
-		a{
-			color: var(--fore-color-1);
-		}
-
-	/*/TIPOGRAFÍAS/*/
-		/*/TODO/*/
-			body{
-				font-family: var(--font-1);
-			}
-			footer{
-				text-align: right;
-			}
-			.formBack{
-				text-align: left;
-			}
-			.textBack{
-				text-align: justify;
-			}
-
-		/*/NAV/*/
-			nav input[type=text]{
-				font-size: 20px;
-				font-weight: 100;
-				text-indent: 20px;
-			}
-			nav a{
-				text-decoration: none;
-			}
-			nav #usrList{
-				text-align: center;
-			}
-
-		/*/INDEX/*/
-			#index h2{
-				font-size: 35px;
-				text-align: left;
-			}
-			#index article{
-				text-align: right;
-			}
-			#index a{
-				text-decoration: none;
-				border-bottom: 1px dotted;
-			}
-			#index li a{
-				border-bottom: none;
-			}
-
-		/*/JUEGOS/*/
-			#games th{
-				font-size: 25px;
-			}
-			#games #precio{
-				font-size: 18px;
-				text-align: center;
-			}
-
-		/*/JUEGO/*/
-			#game th{
-				font-size: 40px;
-				text-align: center;
-			}
-			#game td{
-				text-align: justify;
-				font-size: 20px;
-			}
-			#game td#valor{
-				text-align: center;
-			}
-			#game td#extra{
-				text-align: center;
-			}
-			#game #precio{
-				font-size: 25px;
-				text-align: center;
-			}
-			#game #tag{
-				font-size: 15px;
-			}
-
-		/*/CONTACTO/*/
-			#contact #titulo{
-				font-size: 20px;
-			}
-
-		/*/LOGIN/*/
-			#login .formBack{
-				text-align: center;
-			}
-
-		/*/SIGNIN/*/
-			#signin #titulo{
-				font-size: 20px;
-			}
-
-		/*/PERFIL/*/
-			#perfil{
-				text-align: justify;
-			}
-			#perfil #cambiar{
-				text-align: right;
-			}
-
-		/*/EDIT/*/
-			#edit .formBack{
-				text-align: center;
-			}
-
-		/*/WISHLIST/*/
-			#wish th{
-				font-size: 25px;
-			}
-
-		/*/CARRITO/*/
-			#carrito th{
-				font-size: 25px;
-			}
-			#carrito td#comprar{
-				text-align: right;
-			}
-
-		/*/MISJUEGOS/*/
-			#mygames th{
-				font-size: 25px;
-			}
-
-	/*/POSISIONAMIENTO/*/
-		/*/TODO/*/
-			body{
-				margin: 0;
-			}
-			main{
-				margin-top: 3.9%;
-				margin-bottom: 30px;
-			}
-			footer{
-				position: fixed;
-				bottom: 0px;
-				left: 0px;
-				margin: 0px;
-				z-index: 9999;
-			}
-			footer span{
-				position: relative;
-				bottom: -5px;
-				right: 10px;
-			}
-
-		/*/NAV/*/
-			nav{
-				position: fixed;
-				top: 0px;
-				left: 0px;
-				margin: 0px;
-				z-index: 9999;
-			}
-			nav .leftItem{
-				margin: 0.3%;
-			}
-			nav #usuario{
-				position: relative;
-				float: right;
-				margin: 0.3%;
-				margin-right: 0px;
-			}
-			nav .wrap{
-				position: relative;
-				float: right;
-				top: 4px;
-				margin-left: 4px;
-				margin-right: 4px;
-				padding: 0;
-				display: inline-block;
-			}
-			nav input[type=text]{
-				position: relative;
-				float: right;
-				margin-right: 1px;
-				display: inline-block;
-				z-index: 4;
-				opacity: 0;
-				cursor: pointer;
-			}
-			nav input[type=text]:focus{
-				z-index: 2;
-				opacity: 1;
-				cursor: text;
-			}
-			nav input[type=submit]{
-				position: absolute;
-				top: 0px;
-				right: 0px;
-				display: inline-block;
-				z-index: 1;
-				cursor: pointer;
-			}
-			nav li.wrap img{
-				position: absolute;
-				top: 7px;
-				right: 7px;
-				z-index: 3;
-			}
-			nav ul{
-				margin: 0;
-				padding: 0;
-				list-style: none;
-				display: flex;
-				justify-content: flex-start;
-			}
-			nav #usrList{
-				margin-top: 1px;
-				padding-bottom: 5px;
-				display: none;
-				justify-content: flex-start;
-				flex-direction: column;
-			}
-			nav li#usuario:hover #usrList{
-				display: flex;
-			}
-			nav #usrList li{
-				margin-top: 5px;
-			}
-
-		/*/INDEX/*/
-			#index table{
-				vertical-align: middle;
-				overflow-x: auto;
-			}
-			#index h2{
-				margin-bottom: 3.5%;
-				padding-left: 2%;
-			}
-			#index article{
-				margin: 6%;
-				padding: 2.5%;
-				padding-top: 1%;
-			}
-			#index ul{
-				margin: 0;
-				padding: 0;
-				display: flex;
-				justify-content: flex-start;
-				list-style: none;
-				overflow-y: none;
-			}
-			#index li{
-				margin: 0.2%;
-				margin-top: 0;
-				margin-bottom: 0;
-				overflow-y: none;
-			}
-			
-		/*/JUEGOS/*/
-			#games{
-				position: relative;
-				top: 20px;
-			}
-			#games table{
-				position: relative;
-				left: 5px;
-				top: 5px;
-				margin-right: 10px;
-				margin-bottom: 10px;
-			}
-			#games th{
-				padding-left: 20px;
-				padding-bottom: 10px;
-			}
-			#games td#img{
-				margin: 0px;
-				padding: 0px;
-				background-repeat: no-repeat;
-			}
-			#games td#img img, #games #ver img{
-				vertical-align: middle;
-			}
-			#games td.textBack{
-				padding: 10px;
-			}
-			#games article{
-				margin: 20px;
-				margin-bottom: 47px;
-				padding: 10px;
-			}
-			#games #ver{
-				margin: 0;
-				padding: 0;
-			}
-
-		/*/JUEGO/*/
-			#game table{
-				margin: 20px;
-			}
-			#game td#img{
-				margin: 0;
-				padding: 0;
-			}
-			#game td#img img{
-				vertical-align: middle;
-			}
-			#game th{
-				padding-left: 20px;
-				vertical-align: middle;
-			}
-			#game td#info, #game #tag{
-				padding: 10px;	
-				vertical-align: middle;
-			}
-			#game td#valor input[type=submit]{
-				margin-left: 10%;
-			}
-			#game #act{
-				padding: 0;
-				margin: 0;
-				display: flex;
-			}
-			#game td#act ul{
-				margin: 0;
-				padding: 0;
-				list-style: none;
-				display: flex;
-				justify-content: flex-start;
-				overflow-x: scroll;
-			}
-			#game #act li.me{
-				margin-left: 3px;
-			}
-			#game #act img{
-				vertical-align: middle;
-			}
-			#game td#extra img{
-				margin-right: 10px;
-				margin-left: 10%;
-				vertical-align: middle;
-			}
-			#game td#minfo{
-				padding: 10px;
-				padding-top: 20px;
-				padding-bottom: 20px;
-			}
-			#game article{
-				position: relative;
-				top: 20px;
-				left: 0px;
-				margin: 20px;
-				margin-bottom: 47px;
-				padding: 10px;
-			}
-			#game #tag{
-				vertical-align: top;
-			}
-
-		/*/CONTACTO/*/
-			#contact .formBack{
-				position: absolute;
-				top: 29%;
-				left: 32%;
-				display: inline-block;
-			}
-			#contact #titulo{
-				position: relative;
-				top: 8px;
-				left: 205px;
-				display: inline-block;
-			}
-			#contact input[type=email]{
-				position: relative;
-				top: 15px;
-				left: 29px;
-				display: inline-block;
-			}
-			#contact input[type=text]{
-				position: relative;
-				top: 15px;
-				left: 35px;
-				display: inline-block;
-			}
-			#contact textarea{
-				position: relative;
-				top: 25px;
-				left: 29px;
-				display: inline-block;
-			}
-			#contact input[type=submit]{
-				position: relative;
-				float: right;
-				top: 30px;
-				right: 29px;
-				display: inline-block;
-			}
-
-		/*/LOGIN/*/
-			#login .formBack{
-				position: absolute;
-				top: 40%;
-				left: 40%;
-				display: inline-block;
-			}
-			#login #title{
-				position: relative;
-				top: 6px;
-				display: inline-block;
-			}
-			#login input[type=email]{
-				position: relative;
-				top: 10px;
-				display: inline-block;
-			}
-			#login input[type=password]{
-				position: relative;
-				top: 15px;
-				display: inline-block;
-			}
-			#login #sesion{
-				position: relative;
-				top: 20px;
-				display: inline-block;
-			}
-			#login input[type=submit], #login input[type=button]{
-				position: relative;
-				top: 25px;
-				display: inline-block;
-			}
-
-		/*/SIGNIN/*/
-			#signin .formBack{
-				position: absolute;
-				top: 38%;
-				left: 38%;
-				display: inline-block;
-			}
-			#signin #titulo{
-				position: absolute;
-				top: 8px;
-				left: 120px;
-				display: inline-block;
-			}
-			#signin #nombre{
-				position: absolute;
-				top: 37px;
-				left: 10px;
-				display: inline-block;
-			}
-			#signin #apellido{
-				position: absolute;
-				top: 62px;
-				left: 10px;
-				display: inline-block;
-			}
-			#signin #email{
-				position: absolute;
-				top: 87px;
-				left: 10px;
-				display: inline-block;
-			}
-			#signin #contraseña1{
-				position: absolute;
-				top: 112px;
-				left: 10px;
-				display: inline-block;
-			}
-			#signin #contraseña2{
-				position: absolute;
-				top: 137px;
-				left: 10px;
-				display: inline-block;
-			}
-			#signin input[name=Nombre]{
-				position: absolute;
-				top: 37px;
-				right: 10px;
-				display: inline-block;
-			}
-			#signin input[name=Apellido]{
-				position: absolute;
-				top: 62px;
-				right: 10px;
-				display: inline-block;
-			}
-			#signin input[type=email]{
-				position: absolute;
-				top: 87px;
-				right: 10px;
-				display: inline-block;
-			}
-			#signin input[type=password]#A{
-				position: absolute;
-				top: 112px;
-				right: 10px;
-				display: inline-block;
-			}
-			#signin input[type=password]#B{
-				position: absolute;
-				top: 137px;
-				right: 10px;
-				display: inline-block;
-			}
-			#signin input[type=submit]{
-				position: absolute;
-				top: 162px;
-				right: 10px;
-				display: inline-block;
-			}
-
-		/*/MI PERFIL/*/
-			#perfil article{
-				margin: 2.5%;
-				margin-top: 6%;
-				padding: 2%;
-			}
-			#perfil td{
-				vertical-align: top;
-				padding-bottom: 1%;
-				padding-top: 1%;
-			}
-			#perfil td#text{
-				padding-left: 3%;
-			}
-			#perfil td img{
-				vertical-align: middle;
-			}
-			#perfil td#cambiar{
-				vertical-align: bottom;
-			}
-
-		/*/EDIT/*/
-			#edit .formBack{
-				position: absolute;
-				top: 40%;
-				left: 40%;
-				display: inline-block;
-			}
-			#edit #titulo{
-				position: relative;
-				top: 15px;
-			}
-			#edit input[type=password]#A{
-				position: relative;
-				top: 25px;
-				display: inline-block;
-			}
-			#edit input[type=password]#B{
-				position: relative;
-				top: 35px;
-				display: inline-block;
-			}
-			#edit input[type=password]#C{
-				position: relative;
-				top: 45px;
-				display: inline-block;
-			}
-			#edit input[type=submit]{
-				position: relative;
-				top: 55px ;
-				display: inline-block;
-			}
-
-
-		/*/WISHLIST/*/
-			#wish{
-				position: relative;
-				top: 20px;
-			}
-			#wish table{
-				position: relative;
-				left: 5px;
-				top: 5px;
-				margin-right: 10px;
-				margin-bottom: 10px;
-			}
-			#wish th{
-				padding-left: 20px;
-				padding-bottom: 10px;
-			}
-			#wish td#img, #wish #nope{
-				margin: 0px;
-				padding: 0px;
-			}
-			#wish td#img img{
-				vertical-align: middle;
-			}
-			#wish td.textBack{
-				padding: 10px;
-			}
-			#wish article{
-				margin: 20px;
-				margin-bottom: 47px;
-				padding: 10px;
-			}
-
-		/*/CARRITO/*/
-			#carrito{
-				position: relative;
-				top: 20px;
-			}
-			#carrito table{
-				position: relative;
-				left: 5px;
-				top: 5px;
-				margin-right: 10px;
-				margin-bottom: 10px;
-			}
-			#carrito th{
-				padding-left: 20px;
-				padding-bottom: 10px;
-			}
-			#carrito td#img, #carrito #nope{
-				margin: 0px;
-				padding: 0px;
-			}
-			#carrito td#img img{
-				vertical-align: middle;
-			}
-			#carrito td.textBack{
-				padding: 10px;
-			}
-			#carrito article{
-				margin: 20px;
-				margin-bottom: 47px;
-				padding: 10px;
-			}
-
-
-		/*/MISJUEGOS/*/
-			#mygames{
-				position: relative;
-				top: 20px;
-			}
-			#mygames table{
-				position: relative;
-				left: 5px;
-				top: 5px;
-				margin-right: 10px;
-				margin-bottom: 10px;
-			}
-			#mygames th{
-				padding-left: 20px;
-				padding-bottom: 10px;
-			}
-			#mygames td#img, #mygames #nope{
-				margin: 0px;
-				padding: 0px;
-			}
-			#mygames td#img img{
-				vertical-align: middle;
-			}
-			#mygames td.textBack{
-				padding: 10px;
-			}
-			#mygames article{
-				margin: 20px;
-				margin-bottom: 3%;
-				padding: 10px;
-			}
-
-	/*/TAMAÑOS/*/
-		/*/TODO/*/
-			footer{
-				width: 100%;
-				height: 4%;
-			}
-		/*/NAV/*/
-			nav{
-				width: 100%;
-				height: 54px;
-			}
-			nav .wrap{
-				width: 100%;
-				height: 8%;
-			}
-			nav img[alt=Logo]{
-				width: 45px;
-				height: auto;
-			}
-			nav input[type=text]{
-				width: 45px;
-				height: 43px;
-				border: none;
-				border-radius: 100px;
-				outline: none;
-			}
-			nav input[type=text]:focus{
-				width: 100%;
-				cursor: text;
-			}
-			nav input[type=submit]{
-				width: 45px;
-				height: 45px;
-				border: none;
-				border-radius: 100px;
-				outline: none;
-			}
-			nav li.wrap img{
-				width: 30px;
-			}
-			nav #usrList{
-				border-bottom-left-radius: 5px;
-				border-bottom-right-radius: 5px;
-			}
-
-		/*/INDEX/*/
-			#index img#banner{
-				width: 100%
-			}
-			#index article{
-				border-radius: 10px;
-			}
-			#index img{
-				width: 280px;
-				height: 155px;
-			}
-
-		/*/JUEGOS/*/
-			#games td#img{
-				border: 0px;
-				width: 280px;
-				height: 155px;
-			}
-			#games article{
-				border-radius: 10px;
-			}
-			#games #precio{
-				width: 70px;
-			}
-			#games #ver{
-				width: 100px;
-				height: 60px;
-				min-height: 60px;
-				max-height: 60px;
-			}
-
-		/*/JUEGO/*/
-			#game table{
-				border-collapse: separate;
-				border-spacing: 5px;
-			}
-			#game td#act ul{
-				width: 450px;
-				height: 60px;
-			}
-			#game article{
-				border-radius: 10px;
-			}
-
-		/*/CONTACTO/*/
-			#contact .formBack{
-				width: 500px;
-				height: 350px;
-				border-radius: 10px;
-			}
-			#contact textarea{
-				resize: none;
-			}
-
-		/*/LOGIN/*/
-			#login .formBack{
-				width: 280px;
-				height: 150px;
-				border-radius: 10px;
-			}
-
-		/*/SIGNIN/*/
-			#signin .formBack{
-				width: 350px;
-				height: 200px;
-				border-radius: 10px;
-			}
-			#signin input[type=date]{
-				width: 168px;
-			}
-
-		/*/MI PERFIL/*/
-			#perfil article{
-				height: 465px;
-				border-radius: 10px;
-			}
-
-		/*/EDIT/*/
-			#edit .formBack{
-				width: 280px;
-				height: 170px;
-				border-radius: 10px;
-			}
-			#edit input[type=date]{
-				width: 168px;
-			}
-
-		/*/WISHLIST/*/
-			#wish td#img{
-				width: 280px;
-				height: 155px;
-				border: 0px;
-			}
-			#wish #nope{
-				width: 60px;
-				height: 60px;
-			}
-			#wish article{
-				border-radius: 10px;
-			}
-
-		/*/CARRITO/*/
-			#carrito td#img{
-				width: 280px;
-				height: 155px;
-				border: 0px;
-			}
-			#carrito #nope{
-				width: 60px;
-				height: 60px;
-			}
-			#carrito article{
-				border-radius: 10px;
-			}
-
-		/*/MISJUEGOS/*/
-			#mygames td#img{
-				width: 280px;
-				height: 155px;
-				border: 0px;
-			}
-			#mygames #nope{
-				width: 60px;
-				height: 60px;
-			}
-			#mygames article{
-				border-radius: 10px;
-			}
-
-	/*/OTROS/*/
-		::-webkit-scrollbar{
-			display: none;
-		}
-}
