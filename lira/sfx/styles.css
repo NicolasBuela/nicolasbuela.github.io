@@ -862,7 +862,7 @@
 	}
 /*/CELULAR/*/
 	@media (max-width:480px) {
-		/*/VARIABLES/*/
+	/*	/*/VARIABLES/*/
 			html{
 				/*/COLOR/*/
 					--back-color-1: #000;
@@ -1666,5 +1666,5 @@
 			/*/OTROS/*/
 				::-webkit-scrollbar{
 					display: none;
-			}
+			}*/
 	}
