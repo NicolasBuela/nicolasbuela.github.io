@@ -67,22 +67,32 @@
 			<center>
 				<div class="formBack">
 					<form>
-						<span id="titulo">Registrarse</span>
+						<div id="titulo">Registrarse</div>
 						<br>
-						<span id="nombre">Nombre:</span>
-						<input type="text" name="Nombre" placeholder="Nombre" maxlength="30" required>
+						<div class="cont">
+							<div class="text" id="nombre">Nombre:</div>
+							<div class="input"><input type="text" name="Nombre" placeholder="Nombre" maxlength="30" required></div>
+						</div>
 						<br>
-						<span id="apellido">Apellido:</span>
-						<input type="text" name="Apellido" placeholder="Apellido" maxlength="30" required>
+						<div class="cont">
+							<div class="text" id="apellido">Apellido:</div>
+							<div class="input"><input type="text" name="Apellido" placeholder="Apellido" maxlength="30" required></div>
+						</div>
 						<br>
-						<span id="email">E-mail:</span>
-						<input type="email" name="E-mail" placeholder="E-mail" required>
+						<div class="cont">
+							<div class="text" id="email">E-mail:</div>
+							<div class="input"><input type="email" name="E-mail" placeholder="E-mail" required></div>
+						</div>
 						<br>
-						<span id="contraseña1">Contraseña:</span>
-						<input type="password" name="Contraseña" placeholder="Contraseña" maxlength="24" minlength="8" pattern="[A-Za-z0-9]" id="A" required>
+						<div class="cont">
+							<div class="text" id="contraseña1">Contraseña:</div>
+							<div class="input"><input type="password" name="Contraseña" placeholder="Contraseña" maxlength="24" minlength="8" pattern="[A-Za-z0-9]" id="A" required></div>
+						</div>
 						<br>
-						<span id="contraseña2">Repita la Contraseña:</span>
-						<input type="password" name="Repita la Contraseña" placeholder="Repita la Contraseña" id="B" required>
+						<div class="cont">
+							<div class="text" id="contraseña2">Repita la Contraseña:</div>
+							<div class="input"><input type="password" name="Repita la Contraseña" placeholder="Repita la Contraseña" id="B" required></div>
+						</div>
 						<br>
 						<input type="submit" name="Signin" value="Sign in">
 					</form>

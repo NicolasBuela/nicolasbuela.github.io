@@ -15,7 +15,6 @@
 			/*/TIPOGRAFÍA/*/
 				--font-1: Corbel;
 		}
-
 	/*/PÁGINA/*/
 		/*/COLORES/*/
 			body{
@@ -50,7 +49,6 @@
 			a{
 				color: var(--fore-color-1);
 			}
-
 		/*/TIPOGRAFÍAS/*/
 			/*/TODO/*/
 				body{
@@ -65,7 +63,6 @@
 				.textBack{
 					text-align: justify;
 				}
-
 			/*/NAV/*/
 				nav input[type=text]{
 					font-size: 20px;
@@ -76,9 +73,9 @@
 					text-decoration: none;
 				}
 				nav #usrList{
+					font-size: 120%;
 					text-align: center;
 				}
-
 			/*/INDEX/*/
 				#index h2{
 					font-size: 35px;
@@ -94,7 +91,13 @@
 				#index li a{
 					border-bottom: none;
 				}
-
+				#index .juegosPadre{
+					font-size: 0;
+				}
+				#index .juegosPadre a{
+					text-decoration: none;
+					border-bottom: none;
+				}
 			/*/JUEGOS/*/
 				#games th{
 					font-size: 25px;
@@ -103,7 +106,6 @@
 					font-size: 18px;
 					text-align: center;
 				}
-
 			/*/JUEGO/*/
 				#game th{
 					font-size: 40px;
@@ -126,40 +128,69 @@
 				#game #tag{
 					font-size: 15px;
 				}
-
 			/*/CONTACTO/*/
-				#contact #titulo{
-					font-size: 20px;
+				#contact .formBack{
+					text-align: right;
 				}
-
+				#contact #titulo{
+					font-size: 280%;
+					text-align: center;
+				}
+				#contact #inputs{
+					text-align: left;
+				}
+				#contact input{
+					font-size: 120%
+				}
+				#contact #area textarea{
+					font-size: 150%
+				}
 			/*/LOGIN/*/
 				#login .formBack{
 					text-align: center;
+					font-size: 140%;
 				}
-
+				#login #title{
+					font-size: 180%
+				}
+				#login input{
+					font-size: 100%;
+				}
 			/*/SIGNIN/*/
-				#signin #titulo{
-					font-size: 20px;
+				#signin .formBack{
+					text-align: right;
 				}
-
+				#signin #titulo{
+					font-size: 280%;
+					text-align: center;
+				}
+				#signin .text{
+					font-size: 150%;
+					text-align: left;
+				}
+				#signin input{
+					font-size: 120%;
+				}
 			/*/PERFIL/*/
 				#perfil{
 					text-align: justify;
+					font-size: 130%;
 				}
 				#perfil #cambiar{
 					text-align: right;
 				}
-
 			/*/EDIT/*/
 				#edit .formBack{
 					text-align: center;
+					font-size: 200%;
 				}
-
+				#edit input{
+					font-size: 60%;
+				}
 			/*/WISHLIST/*/
 				#wish th{
 					font-size: 25px;
 				}
-
 			/*/CARRITO/*/
 				#carrito th{
 					font-size: 25px;
@@ -167,19 +198,17 @@
 				#carrito td#comprar{
 					text-align: right;
 				}
-
 			/*/MISJUEGOS/*/
 				#mygames th{
 					font-size: 25px;
 				}
-
 		/*/POSISIONAMIENTO/*/
 			/*/TODO/*/
 				body{
 					margin: 0;
 				}
 				main{
-					margin-top: 3.9%;
+					margin-top: 54px;
 					margin-bottom: 30px;
 				}
 				footer{
@@ -194,7 +223,6 @@
 					bottom: -5px;
 					right: 10px;
 				}
-
 			/*/NAV/*/
 				nav{
 					position: fixed;
@@ -204,13 +232,16 @@
 					z-index: 9999;
 				}
 				nav .leftItem{
-					margin: 0.3%;
+					margin: 5px;
+				}
+				nav #logo{
+					margin-left: 6px;
 				}
 				nav #usuario{
 					position: relative;
 					float: right;
-					margin: 0.3%;
-					margin-right: 0px;
+					margin: 5px;
+					margin-right: 5px;
 				}
 				nav .wrap{
 					position: relative;
@@ -257,7 +288,6 @@
 					justify-content: flex-start;
 				}
 				nav #usrList{
-					margin-top: 1px;
 					padding-bottom: 5px;
 					display: none;
 					justify-content: flex-start;
@@ -269,36 +299,29 @@
 				nav #usrList li{
 					margin-top: 5px;
 				}
-
 			/*/INDEX/*/
 				#index table{
 					vertical-align: middle;
 					overflow-x: auto;
 				}
 				#index h2{
-					margin-bottom: 3.5%;
-					padding-left: 2%;
+					margin-bottom: 30px;
+					margin-top: 30px;
+					padding-left: 50px;
 				}
 				#index article{
-					margin: 6%;
-					padding: 2.5%;
-					padding-top: 1%;
+					margin: 100px;
+					padding: 45px;
+					padding-top: 20px;
 				}
-				#index ul{
-					margin: 0;
-					padding: 0;
-					display: flex;
-					justify-content: flex-start;
-					list-style: none;
-					overflow-y: none;
+				#index .juegosPadre{
+					display: inline-block;
 				}
-				#index li{
-					margin: 0.2%;
-					margin-top: 0;
-					margin-bottom: 0;
-					overflow-y: none;
+				#index .juegosHijo{
+					display: inline-block;
+					margin-bottom: 5px;
+					margin-right: 5px;
 				}
-				
 			/*/JUEGOS/*/
 				#games{
 					position: relative;
@@ -335,7 +358,6 @@
 					margin: 0;
 					padding: 0;
 				}
-
 			/*/JUEGO/*/
 				#game table{
 					margin: 20px;
@@ -398,159 +420,59 @@
 				#game #tag{
 					vertical-align: top;
 				}
-
 			/*/CONTACTO/*/
 				#contact .formBack{
-					position: absolute;
-					top: 29%;
-					left: 32%;
-					display: inline-block;
+					position: fixed;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					padding: 50px;
 				}
 				#contact #titulo{
-					position: relative;
-					top: 8px;
-					left: 205px;
-					display: inline-block;
+					margin: 0px;
+					padding: 0px;
+					padding-top: 10px;
 				}
-				#contact input[type=email]{
-					position: relative;
-					top: 15px;
-					left: 29px;
-					display: inline-block;
+				#contact #inputs{
+					margin-top: -10px;
 				}
-				#contact input[type=text]{
-					position: relative;
-					top: 15px;
-					left: 35px;
-					display: inline-block;
+				#contact #inputs input{
+					margin-right: 7px;
 				}
-				#contact textarea{
-					position: relative;
-					top: 25px;
-					left: 29px;
-					display: inline-block;
+				#contact #area{
+					margin-top: -10px;
+					margin-bottom: -10px;
+					display: flex;
 				}
-				#contact input[type=submit]{
-					position: relative;
-					float: right;
-					top: 30px;
-					right: 29px;
-					display: inline-block;
-				}
-
 			/*/LOGIN/*/
 				#login .formBack{
-					position: absolute;
-					top: 40%;
-					left: 40%;
-					display: inline-block;
-				}
-				#login #title{
-					position: relative;
-					top: 6px;
-					display: inline-block;
+					position: fixed;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					padding: 30px;
 				}
 				#login input[type=email]{
-					position: relative;
-					top: 10px;
-					display: inline-block;
+					margin-bottom: 10px;
 				}
 				#login input[type=password]{
-					position: relative;
-					top: 15px;
-					display: inline-block;
-				}
-				#login #sesion{
-					position: relative;
-					top: 20px;
-					display: inline-block;
+					margin-bottom: 10px;
 				}
 				#login input[type=submit], #login input[type=button]{
-					position: relative;
-					top: 25px;
-					display: inline-block;
+					margin-right: 10px;
 				}
-
 			/*/SIGNIN/*/
 				#signin .formBack{
-					position: absolute;
-					top: 38%;
-					left: 38%;
+					position: fixed;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					padding: 50px;
 					display: inline-block;
 				}
-				#signin #titulo{
-					position: absolute;
-					top: 8px;
-					left: 120px;
-					display: inline-block;
+				#signin .cont{
+					display: flex;
 				}
-				#signin #nombre{
-					position: absolute;
-					top: 37px;
-					left: 10px;
-					display: inline-block;
-				}
-				#signin #apellido{
-					position: absolute;
-					top: 62px;
-					left: 10px;
-					display: inline-block;
-				}
-				#signin #email{
-					position: absolute;
-					top: 87px;
-					left: 10px;
-					display: inline-block;
-				}
-				#signin #contraseña1{
-					position: absolute;
-					top: 112px;
-					left: 10px;
-					display: inline-block;
-				}
-				#signin #contraseña2{
-					position: absolute;
-					top: 137px;
-					left: 10px;
-					display: inline-block;
-				}
-				#signin input[name=Nombre]{
-					position: absolute;
-					top: 37px;
-					right: 10px;
-					display: inline-block;
-				}
-				#signin input[name=Apellido]{
-					position: absolute;
-					top: 62px;
-					right: 10px;
-					display: inline-block;
-				}
-				#signin input[type=email]{
-					position: absolute;
-					top: 87px;
-					right: 10px;
-					display: inline-block;
-				}
-				#signin input[type=password]#A{
-					position: absolute;
-					top: 112px;
-					right: 10px;
-					display: inline-block;
-				}
-				#signin input[type=password]#B{
-					position: absolute;
-					top: 137px;
-					right: 10px;
-					display: inline-block;
-				}
-				#signin input[type=submit]{
-					position: absolute;
-					top: 162px;
-					right: 10px;
-					display: inline-block;
-				}
-
 			/*/MI PERFIL/*/
 				#perfil article{
 					margin: 2.5%;
@@ -571,40 +493,14 @@
 				#perfil td#cambiar{
 					vertical-align: bottom;
 				}
-
 			/*/EDIT/*/
 				#edit .formBack{
-					position: absolute;
-					top: 40%;
-					left: 40%;
-					display: inline-block;
+					position: fixed;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					padding: 30px;
 				}
-				#edit #titulo{
-					position: relative;
-					top: 15px;
-				}
-				#edit input[type=password]#A{
-					position: relative;
-					top: 25px;
-					display: inline-block;
-				}
-				#edit input[type=password]#B{
-					position: relative;
-					top: 35px;
-					display: inline-block;
-				}
-				#edit input[type=password]#C{
-					position: relative;
-					top: 45px;
-					display: inline-block;
-				}
-				#edit input[type=submit]{
-					position: relative;
-					top: 55px ;
-					display: inline-block;
-				}
-
-
 			/*/WISHLIST/*/
 				#wish{
 					position: relative;
@@ -636,7 +532,6 @@
 					margin-bottom: 47px;
 					padding: 10px;
 				}
-
 			/*/CARRITO/*/
 				#carrito{
 					position: relative;
@@ -668,8 +563,6 @@
 					margin-bottom: 47px;
 					padding: 10px;
 				}
-
-
 			/*/MISJUEGOS/*/
 				#mygames{
 					position: relative;
@@ -701,7 +594,6 @@
 					margin-bottom: 3%;
 					padding: 10px;
 				}
-
 		/*/TAMAÑOS/*/
 			/*/TODO/*/
 				footer{
@@ -741,24 +633,32 @@
 				}
 				nav li.wrap img{
 					width: 30px;
+					height: auto;
 				}
 				nav #usrList{
 					border-bottom-left-radius: 5px;
 					border-bottom-right-radius: 5px;
 				}
-
 			/*/INDEX/*/
 				#index img#banner{
-					width: 100%
+					width: 100%;
+					height: auto;
 				}
 				#index article{
 					border-radius: 10px;
 				}
-				#index img{
-					width: 280px;
-					height: 155px;
+				#index .juegosPadre{
+					width: 100%;
+					height: auto;
 				}
-
+				#index .juegosHijo{
+					width: 24.6%;
+					height: auto;
+				}
+				#index img{
+					width: 100%;
+					height: auto;
+				}
 			/*/JUEGOS/*/
 				#games td#img{
 					border: 0px;
@@ -777,7 +677,6 @@
 					min-height: 60px;
 					max-height: 60px;
 				}
-
 			/*/JUEGO/*/
 				#game table{
 					border-collapse: separate;
@@ -790,50 +689,74 @@
 				#game article{
 					border-radius: 10px;
 				}
-
 			/*/CONTACTO/*/
 				#contact .formBack{
-					width: 500px;
-					height: 350px;
+					width: 80%;
+					height: auto;
 					border-radius: 10px;
+				}
+				#contact input[type=text], input[type=email]{
+					width: 25%;
+					height: auto;
 				}
 				#contact textarea{
+					width: 100%;
+					height: auto;
 					resize: none;
 				}
-
 			/*/LOGIN/*/
 				#login .formBack{
-					width: 280px;
-					height: 150px;
+					width: auto;
+					height: auto;
 					border-radius: 10px;
 				}
-
+				#login input[type=email]{
+					width: 100%;
+					height: auto;
+				}
+				#login input[type=password]{
+					width: 100%;
+					height: auto;
+				}
 			/*/SIGNIN/*/
 				#signin .formBack{
-					width: 350px;
-					height: 200px;
+					width: 50%;
+					height: auto;
 					border-radius: 10px;
 				}
-				#signin input[type=date]{
-					width: 168px;
+				#signin .cont{
+					width: 100%;
+					height: auto;
 				}
-
+				#signin .text{
+					width: 50%;
+				}
+				#signin .input{
+					width: 49.4%;
+				}
+				#signin input{
+					width: 100%;
+				}
+				#signin input[type=submit]{
+					width: auto;
+				}
 			/*/MI PERFIL/*/
 				#perfil article{
-					height: 465px;
+					height: auto;
 					border-radius: 10px;
 				}
-
 			/*/EDIT/*/
 				#edit .formBack{
-					width: 280px;
-					height: 170px;
+					width: auto;
+					height: auto;
 					border-radius: 10px;
 				}
-				#edit input[type=date]{
-					width: 168px;
+				#edit input{
+					width: 100%;
 				}
-
+				#edit input[type=submit]{
+					width: auto;
+				}
 			/*/WISHLIST/*/
 				#wish td#img{
 					width: 280px;
@@ -847,7 +770,6 @@
 				#wish article{
 					border-radius: 10px;
 				}
-
 			/*/CARRITO/*/
 				#carrito td#img{
 					width: 280px;
@@ -861,7 +783,6 @@
 				#carrito article{
 					border-radius: 10px;
 				}
-
 			/*/MISJUEGOS/*/
 				#mygames td#img{
 					width: 280px;
@@ -875,14 +796,12 @@
 				#mygames article{
 					border-radius: 10px;
 				}
-
 		/*/OTROS/*/
 			::-webkit-scrollbar{
 				display: none;
 		}
-
 /*/TABLET/*/
-	@media only screen and (max-width: 1360px and min-width: 1200px) {
+	@media only screen and (min-width: 601px and max-width: 1366px) {
 		/*/VARIABLES/*/
 			html{
 				/*/COLOR/*/
@@ -899,7 +818,6 @@
 				/*/TIPOGRAFÍA/*/
 					--font-1: Corbel;
 			}
-
 		/*/PÁGINA/*/
 			/*/COLORES/*/
 				body{
@@ -934,7 +852,6 @@
 				a{
 					color: var(--fore-color-1);
 				}
-
 			/*/TIPOGRAFÍAS/*/
 				/*/TODO/*/
 					body{
@@ -949,7 +866,6 @@
 					.textBack{
 						text-align: justify;
 					}
-
 				/*/NAV/*/
 					nav input[type=text]{
 						font-size: 20px;
@@ -960,9 +876,9 @@
 						text-decoration: none;
 					}
 					nav #usrList{
+						font-size: 120%;
 						text-align: center;
 					}
-
 				/*/INDEX/*/
 					#index h2{
 						font-size: 35px;
@@ -978,7 +894,13 @@
 					#index li a{
 						border-bottom: none;
 					}
-
+					#index .juegosPadre{
+						font-size: 0;
+					}
+					#index .juegosPadre a{
+						text-decoration: none;
+						border-bottom: none;
+					}
 				/*/JUEGOS/*/
 					#games th{
 						font-size: 25px;
@@ -987,7 +909,6 @@
 						font-size: 18px;
 						text-align: center;
 					}
-
 				/*/JUEGO/*/
 					#game th{
 						font-size: 40px;
@@ -1010,40 +931,69 @@
 					#game #tag{
 						font-size: 15px;
 					}
-
 				/*/CONTACTO/*/
-					#contact #titulo{
-						font-size: 20px;
+					#contact .formBack{
+						text-align: right;
 					}
-
+					#contact #titulo{
+						font-size: 280%;
+						text-align: center;
+					}
+					#contact #inputs{
+						text-align: left;
+					}
+					#contact input{
+						font-size: 120%
+					}
+					#contact #area textarea{
+						font-size: 150%
+					}
 				/*/LOGIN/*/
 					#login .formBack{
 						text-align: center;
+						font-size: 140%;
 					}
-
+					#login #title{
+						font-size: 180%
+					}
+					#login input{
+						font-size: 100%;
+					}
 				/*/SIGNIN/*/
-					#signin #titulo{
-						font-size: 20px;
+					#signin .formBack{
+						text-align: right;
 					}
-
+					#signin #titulo{
+						font-size: 280%;
+						text-align: center;
+					}
+					#signin .text{
+						font-size: 150%;
+						text-align: left;
+					}
+					#signin input{
+						font-size: 120%;
+					}
 				/*/PERFIL/*/
 					#perfil{
 						text-align: justify;
+						font-size: 130%;
 					}
 					#perfil #cambiar{
 						text-align: right;
 					}
-
 				/*/EDIT/*/
 					#edit .formBack{
 						text-align: center;
+						font-size: 200%;
 					}
-
+					#edit input{
+						font-size: 60%;
+					}
 				/*/WISHLIST/*/
 					#wish th{
 						font-size: 25px;
 					}
-
 				/*/CARRITO/*/
 					#carrito th{
 						font-size: 25px;
@@ -1051,19 +1001,17 @@
 					#carrito td#comprar{
 						text-align: right;
 					}
-
 				/*/MISJUEGOS/*/
 					#mygames th{
 						font-size: 25px;
 					}
-
 			/*/POSISIONAMIENTO/*/
 				/*/TODO/*/
 					body{
 						margin: 0;
 					}
 					main{
-						margin-top: 3.9%;
+						margin-top: 54px;
 						margin-bottom: 30px;
 					}
 					footer{
@@ -1078,7 +1026,6 @@
 						bottom: -5px;
 						right: 10px;
 					}
-
 				/*/NAV/*/
 					nav{
 						position: fixed;
@@ -1088,13 +1035,16 @@
 						z-index: 9999;
 					}
 					nav .leftItem{
-						margin: 0.3%;
+						margin: 5px;
+					}
+					nav #logo{
+						margin-left: 6px;
 					}
 					nav #usuario{
 						position: relative;
 						float: right;
-						margin: 0.3%;
-						margin-right: 0px;
+						margin: 5px;
+						margin-right: 5px;
 					}
 					nav .wrap{
 						position: relative;
@@ -1141,7 +1091,6 @@
 						justify-content: flex-start;
 					}
 					nav #usrList{
-						margin-top: 1px;
 						padding-bottom: 5px;
 						display: none;
 						justify-content: flex-start;
@@ -1153,36 +1102,29 @@
 					nav #usrList li{
 						margin-top: 5px;
 					}
-
 				/*/INDEX/*/
 					#index table{
 						vertical-align: middle;
 						overflow-x: auto;
 					}
 					#index h2{
-						margin-bottom: 3.5%;
-						padding-left: 2%;
+						margin-bottom: 30px;
+						margin-top: 30px;
+						padding-left: 50px;
 					}
 					#index article{
-						margin: 6%;
-						padding: 2.5%;
-						padding-top: 1%;
+						margin: 100px;
+						padding: 45px;
+						padding-top: 20px;
 					}
-					#index ul{
-						margin: 0;
-						padding: 0;
-						display: flex;
-						justify-content: flex-start;
-						list-style: none;
-						overflow-y: none;
+					#index .juegosPadre{
+						display: inline-block;
 					}
-					#index li{
-						margin: 0.2%;
-						margin-top: 0;
-						margin-bottom: 0;
-						overflow-y: none;
+					#index .juegosHijo{
+						display: inline-block;
+						margin-bottom: 5px;
+						margin-right: 5px;
 					}
-					
 				/*/JUEGOS/*/
 					#games{
 						position: relative;
@@ -1219,7 +1161,6 @@
 						margin: 0;
 						padding: 0;
 					}
-
 				/*/JUEGO/*/
 					#game table{
 						margin: 20px;
@@ -1282,159 +1223,59 @@
 					#game #tag{
 						vertical-align: top;
 					}
-
 				/*/CONTACTO/*/
 					#contact .formBack{
-						position: absolute;
-						top: 29%;
-						left: 32%;
-						display: inline-block;
+						position: fixed;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						padding: 50px;
 					}
 					#contact #titulo{
-						position: relative;
-						top: 8px;
-						left: 205px;
-						display: inline-block;
+						margin: 0px;
+						padding: 0px;
+						padding-top: 10px;
 					}
-					#contact input[type=email]{
-						position: relative;
-						top: 15px;
-						left: 29px;
-						display: inline-block;
+					#contact #inputs{
+						margin-top: -10px;
 					}
-					#contact input[type=text]{
-						position: relative;
-						top: 15px;
-						left: 35px;
-						display: inline-block;
+					#contact #inputs input{
+						margin-right: 7px;
 					}
-					#contact textarea{
-						position: relative;
-						top: 25px;
-						left: 29px;
-						display: inline-block;
+					#contact #area{
+						margin-top: -10px;
+						margin-bottom: -10px;
+						display: flex;
 					}
-					#contact input[type=submit]{
-						position: relative;
-						float: right;
-						top: 30px;
-						right: 29px;
-						display: inline-block;
-					}
-
 				/*/LOGIN/*/
 					#login .formBack{
-						position: absolute;
-						top: 40%;
-						left: 40%;
-						display: inline-block;
-					}
-					#login #title{
-						position: relative;
-						top: 6px;
-						display: inline-block;
+						position: fixed;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						padding: 30px;
 					}
 					#login input[type=email]{
-						position: relative;
-						top: 10px;
-						display: inline-block;
+						margin-bottom: 10px;
 					}
 					#login input[type=password]{
-						position: relative;
-						top: 15px;
-						display: inline-block;
-					}
-					#login #sesion{
-						position: relative;
-						top: 20px;
-						display: inline-block;
+						margin-bottom: 10px;
 					}
 					#login input[type=submit], #login input[type=button]{
-						position: relative;
-						top: 25px;
-						display: inline-block;
+						margin-right: 10px;
 					}
-
 				/*/SIGNIN/*/
 					#signin .formBack{
-						position: absolute;
-						top: 38%;
-						left: 38%;
+						position: fixed;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						padding: 50px;
 						display: inline-block;
 					}
-					#signin #titulo{
-						position: absolute;
-						top: 8px;
-						left: 120px;
-						display: inline-block;
+					#signin .cont{
+						display: flex;
 					}
-					#signin #nombre{
-						position: absolute;
-						top: 37px;
-						left: 10px;
-						display: inline-block;
-					}
-					#signin #apellido{
-						position: absolute;
-						top: 62px;
-						left: 10px;
-						display: inline-block;
-					}
-					#signin #email{
-						position: absolute;
-						top: 87px;
-						left: 10px;
-						display: inline-block;
-					}
-					#signin #contraseña1{
-						position: absolute;
-						top: 112px;
-						left: 10px;
-						display: inline-block;
-					}
-					#signin #contraseña2{
-						position: absolute;
-						top: 137px;
-						left: 10px;
-						display: inline-block;
-					}
-					#signin input[name=Nombre]{
-						position: absolute;
-						top: 37px;
-						right: 10px;
-						display: inline-block;
-					}
-					#signin input[name=Apellido]{
-						position: absolute;
-						top: 62px;
-						right: 10px;
-						display: inline-block;
-					}
-					#signin input[type=email]{
-						position: absolute;
-						top: 87px;
-						right: 10px;
-						display: inline-block;
-					}
-					#signin input[type=password]#A{
-						position: absolute;
-						top: 112px;
-						right: 10px;
-						display: inline-block;
-					}
-					#signin input[type=password]#B{
-						position: absolute;
-						top: 137px;
-						right: 10px;
-						display: inline-block;
-					}
-					#signin input[type=submit]{
-						position: absolute;
-						top: 162px;
-						right: 10px;
-						display: inline-block;
-					}
-
 				/*/MI PERFIL/*/
 					#perfil article{
 						margin: 2.5%;
@@ -1455,40 +1296,14 @@
 					#perfil td#cambiar{
 						vertical-align: bottom;
 					}
-
 				/*/EDIT/*/
 					#edit .formBack{
-						position: absolute;
-						top: 40%;
-						left: 40%;
-						display: inline-block;
+						position: fixed;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						padding: 30px;
 					}
-					#edit #titulo{
-						position: relative;
-						top: 15px;
-					}
-					#edit input[type=password]#A{
-						position: relative;
-						top: 25px;
-						display: inline-block;
-					}
-					#edit input[type=password]#B{
-						position: relative;
-						top: 35px;
-						display: inline-block;
-					}
-					#edit input[type=password]#C{
-						position: relative;
-						top: 45px;
-						display: inline-block;
-					}
-					#edit input[type=submit]{
-						position: relative;
-						top: 55px ;
-						display: inline-block;
-					}
-
-
 				/*/WISHLIST/*/
 					#wish{
 						position: relative;
@@ -1520,7 +1335,6 @@
 						margin-bottom: 47px;
 						padding: 10px;
 					}
-
 				/*/CARRITO/*/
 					#carrito{
 						position: relative;
@@ -1552,8 +1366,6 @@
 						margin-bottom: 47px;
 						padding: 10px;
 					}
-
-
 				/*/MISJUEGOS/*/
 					#mygames{
 						position: relative;
@@ -1585,7 +1397,6 @@
 						margin-bottom: 3%;
 						padding: 10px;
 					}
-
 			/*/TAMAÑOS/*/
 				/*/TODO/*/
 					footer{
@@ -1625,24 +1436,32 @@
 					}
 					nav li.wrap img{
 						width: 30px;
+						height: auto;
 					}
 					nav #usrList{
 						border-bottom-left-radius: 5px;
 						border-bottom-right-radius: 5px;
 					}
-
 				/*/INDEX/*/
 					#index img#banner{
-						width: 100%
+						width: 100%;
+						height: auto;
 					}
 					#index article{
 						border-radius: 10px;
 					}
-					#index img{
-						width: 280px;
-						height: 155px;
+					#index .juegosPadre{
+						width: 100%;
+						height: auto;
 					}
-
+					#index .juegosHijo{
+						width: 24.6%;
+						height: auto;
+					}
+					#index img{
+						width: 100%;
+						height: auto;
+					}
 				/*/JUEGOS/*/
 					#games td#img{
 						border: 0px;
@@ -1661,7 +1480,6 @@
 						min-height: 60px;
 						max-height: 60px;
 					}
-
 				/*/JUEGO/*/
 					#game table{
 						border-collapse: separate;
@@ -1674,50 +1492,74 @@
 					#game article{
 						border-radius: 10px;
 					}
-
 				/*/CONTACTO/*/
 					#contact .formBack{
-						width: 500px;
-						height: 350px;
+						width: 80%;
+						height: auto;
 						border-radius: 10px;
+					}
+					#contact input[type=text], input[type=email]{
+						width: 25%;
+						height: auto;
 					}
 					#contact textarea{
+						width: 100%;
+						height: auto;
 						resize: none;
 					}
-
 				/*/LOGIN/*/
 					#login .formBack{
-						width: 280px;
-						height: 150px;
+						width: auto;
+						height: auto;
 						border-radius: 10px;
 					}
-
+					#login input[type=email]{
+						width: 100%;
+						height: auto;
+					}
+					#login input[type=password]{
+						width: 100%;
+						height: auto;
+					}
 				/*/SIGNIN/*/
 					#signin .formBack{
-						width: 350px;
-						height: 200px;
+						width: 50%;
+						height: auto;
 						border-radius: 10px;
 					}
-					#signin input[type=date]{
-						width: 168px;
+					#signin .cont{
+						width: 100%;
+						height: auto;
 					}
-
+					#signin .text{
+						width: 50%;
+					}
+					#signin .input{
+						width: 49.4%;
+					}
+					#signin input{
+						width: 100%;
+					}
+					#signin input[type=submit]{
+						width: auto;
+					}
 				/*/MI PERFIL/*/
 					#perfil article{
-						height: 465px;
+						height: auto;
 						border-radius: 10px;
 					}
-
 				/*/EDIT/*/
 					#edit .formBack{
-						width: 280px;
-						height: 170px;
+						width: auto;
+						height: auto;
 						border-radius: 10px;
 					}
-					#edit input[type=date]{
-						width: 168px;
+					#edit input{
+						width: 100%;
 					}
-
+					#edit input[type=submit]{
+						width: auto;
+					}
 				/*/WISHLIST/*/
 					#wish td#img{
 						width: 280px;
@@ -1731,7 +1573,6 @@
 					#wish article{
 						border-radius: 10px;
 					}
-
 				/*/CARRITO/*/
 					#carrito td#img{
 						width: 280px;
@@ -1745,7 +1586,6 @@
 					#carrito article{
 						border-radius: 10px;
 					}
-
 				/*/MISJUEGOS/*/
 					#mygames td#img{
 						width: 280px;
@@ -1759,15 +1599,13 @@
 					#mygames article{
 						border-radius: 10px;
 					}
-
 			/*/OTROS/*/
 				::-webkit-scrollbar{
 					display: none;
 			}
 	}
-
 /*/CELULAR/*/
-	@media only screen and (min-width: 1360px) {
+	@media only screen and (min-width: 320px and max-width:480px) {
 		/*/VARIABLES/*/
 			html{
 				/*/COLOR/*/
