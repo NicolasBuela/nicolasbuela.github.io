@@ -1011,6 +1011,9 @@
 					}
 			/*/POSISIONAMIENTO/*/
 				/*/NAV/*/
+					nav{
+						position: fixed;
+					}
 					nav .wrap{
 						margin-bottom: 10px;
 						display: inline-block;
@@ -1026,6 +1029,7 @@
 						display: none;
 					}
 					nav #menu{
+						position: fixed;
 						margin: 5px;
 						display: inline-block;
 					}
