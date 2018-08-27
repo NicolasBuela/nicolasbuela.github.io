@@ -231,6 +231,9 @@
 					margin: 0px;
 					z-index: 9999;
 				}
+				nav #menu{
+					display: none;
+				}
 				nav .leftItem{
 					margin: 5px;
 				}
@@ -284,6 +287,9 @@
 					margin: 0;
 					padding: 0;
 					list-style: none;
+				}
+				nav .ul{
+					padding: 0;
 					display: flex;
 					justify-content: flex-start;
 				}
@@ -804,7 +810,7 @@
 				display: none;
 		}
 /*/TABLET/*/
-	@media only (max-width: 1366px) {
+	@media (max-width: 1366px) {
 		/*/PÁGINA/*/
 			/*/TIPOGRAFÍAS/*/
 				/*/JUEGO/*/
@@ -860,10 +866,20 @@
 					}
 	}
 /*/CELULAR/*/
-	@media (max-width: 680px;) {
+	@media (max-width: 680px) {
 		/*/PÁGINA/*/
+			/*/COLORES/*/
+				nav .ul{
+					background-color: var(--back-color-1);
+				}
+				nav #usrList{
+					background-color: var(--back-color-1);
+				}
 			/*/TIPOGRAFÍAS/*/
 				/*/NAV/*/
+					nav .wrap{
+						text-align: left;
+					}
 					nav input[type=text]{
 						font-size: 20px;
 						font-weight: 100;
@@ -874,7 +890,7 @@
 					}
 					nav #usrList{
 						font-size: 120%;
-						text-align: center;
+						text-align: left;
 					}
 				/*/INDEX/*/
 					#index h2{
@@ -1005,55 +1021,24 @@
 					}
 			/*/POSISIONAMIENTO/*/
 				/*/NAV/*/
-					nav{
-						position: fixed;
-						top: 0px;
-						left: 0px;
-						margin: 0px;
-						z-index: 9999;
-					}
-					nav .leftItem{
-						margin: 5px;
-					}
-					nav #logo{
-						margin-left: 6px;
-					}
-					nav #usuario{
-						position: relative;
-						float: right;
-						margin: 5px;
-						margin-right: 5px;
-					}
 					nav .wrap{
-						position: relative;
-						float: right;
+						/*position: relative;
 						top: 4px;
 						margin-left: 4px;
 						margin-right: 4px;
-						padding: 0;
+						padding: 0;*/
+						margin-bottom: 10px;
 						display: inline-block;
 					}
 					nav input[type=text]{
-						position: relative;
-						float: right;
-						margin-right: 1px;
+						float: left;
 						display: inline-block;
-						z-index: 4;
-						opacity: 0;
-						cursor: pointer;
-					}
-					nav input[type=text]:focus{
-						z-index: 2;
 						opacity: 1;
+						z-index: 2;
 						cursor: text;
 					}
 					nav input[type=submit]{
-						position: absolute;
-						top: 0px;
-						right: 0px;
-						display: inline-block;
-						z-index: 1;
-						cursor: pointer;
+						display: none;
 					}
 					nav li.wrap img{
 						position: absolute;
@@ -1061,23 +1046,32 @@
 						right: 7px;
 						z-index: 3;
 					}
-					nav ul{
-						margin: 0;
-						padding: 0;
+					nav #menu{
+						margin: 5px;
+						display: inline-block;
+					}
+					nav .ul{
+						display: none;
+					}
+					nav #menu:hover .ul{
+						margin-top: -1px;
+						margin-left: -5px;
+						position: fixed;
+						padding: 10px;
+						padding-right: 15px;
 						list-style: none;
 						display: flex;
 						justify-content: flex-start;
+						flex-direction: column;
 					}
 					nav #usrList{
 						padding-bottom: 5px;
-						display: none;
+						display: flex;
 						justify-content: flex-start;
 						flex-direction: column;
+						padding-left: 20px;
 					}
-					nav li#usuario:hover #usrList{
-						display: flex;
-					}
-					nav #usrList li{
+					#usrList li{
 						margin-top: 5px;
 					}
 				/*/INDEX/*/
@@ -1380,42 +1374,25 @@
 					}
 			/*/TAMAÑOS/*/
 				/*/NAV/*/
-					nav{
-						height: 130px;
-					}
 					nav .wrap{
 						width: 100%;
 						height: 8%;
 					}
-					nav img[alt=Logo]{
-						width: 45px;
-						height: auto;
-					}
 					nav input[type=text]{
-						width: 45px;
-						height: 43px;
-						border: none;
-						border-radius: 100px;
-						outline: none;
-					}
-					nav input[type=text]:focus{
 						width: 100%;
 						cursor: text;
-					}
-					nav input[type=submit]{
-						width: 45px;
-						height: 45px;
-						border: none;
-						border-radius: 100px;
-						outline: none;
 					}
 					nav li.wrap img{
 						width: 30px;
 						height: auto;
 					}
 					nav #usrList{
-						border-bottom-left-radius: 5px;
-						border-bottom-right-radius: 5px;
+						border-bottom-left-radius: 0;
+						border-bottom-right-radius: 0;
+					}
+					nav .ul{
+						width: auto;
+						height: 100%;
 					}
 				/*/INDEX/*/
 					#index img#banner{
