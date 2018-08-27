@@ -23,6 +23,9 @@
 			nav{
 				background-color: var(--back-color-1);
 			}
+			nav .ul{
+				background-color: var(--back-color-1);
+			}
 			nav input[type=text]{
 				background-color:  var(--back-color-4);
 				color:  var(--fore-color-2);
@@ -232,7 +235,7 @@
 					z-index: 9999;
 				}
 				nav #menu{
-					display: none;
+					z-index: 0;
 				}
 				nav .leftItem{
 					margin: 5px;
@@ -289,9 +292,14 @@
 					list-style: none;
 				}
 				nav .ul{
+					position: fixed;
+					top: 0;
+					left: 0;
+					margin: 0;
 					padding: 0;
 					display: flex;
 					justify-content: flex-start;
+					z-index: 1;
 				}
 				nav #usrList{
 					padding-bottom: 5px;
@@ -614,6 +622,10 @@
 					width: 100%;
 					height: 54px;
 				}
+				nav .ul{
+					width: 100%;
+					height: 54px;
+				}
 				nav .wrap{
 					width: 100%;
 					height: 8%;
@@ -850,6 +862,7 @@
 						font-size: 125%;
 					}
 			/*/POSISIONAMIENTO/*/
+				/*/NAV/*/
 				/*/INDEX/*/
 					#index .juegosPadre{
 						display: inline-block;
@@ -866,20 +879,14 @@
 					}
 	}
 /*/CELULAR/*/
-	@media /*(max-width: 680px)*/ (orientation: portrait) {
+	@media (orientation: portrait) {
 		/*/PÁGINA/*/
 			/*/COLORES/*/
-				nav .ul{
-					background-color: var(--back-color-1);
-				}
 				nav #usrList{
 					background-color: var(--back-color-1);
 				}
 			/*/TIPOGRAFÍAS/*/
 				/*/NAV/*/
-					nav .wrap{
-						text-align: left;
-					}
 					nav input[type=text]{
 						font-size: 20px;
 						font-weight: 100;
@@ -1022,11 +1029,6 @@
 			/*/POSISIONAMIENTO/*/
 				/*/NAV/*/
 					nav .wrap{
-						/*position: relative;
-						top: 4px;
-						margin-left: 4px;
-						margin-right: 4px;
-						padding: 0;*/
 						margin-bottom: 10px;
 						display: inline-block;
 					}
@@ -1040,12 +1042,6 @@
 					nav input[type=submit]{
 						display: none;
 					}
-					nav li.wrap img{
-						position: absolute;
-						top: 7px;
-						right: 7px;
-						z-index: 3;
-					}
 					nav #menu{
 						margin: 5px;
 						display: inline-block;
@@ -1054,7 +1050,7 @@
 						display: none;
 					}
 					nav #menu:hover .ul{
-						margin-top: -1px;
+						margin-top: 54px;
 						margin-left: -5px;
 						position: fixed;
 						padding: 10px;
@@ -1065,10 +1061,7 @@
 						flex-direction: column;
 					}
 					nav #usrList{
-						padding-bottom: 5px;
 						display: flex;
-						justify-content: flex-start;
-						flex-direction: column;
 						padding-left: 20px;
 					}
 					#usrList li{
