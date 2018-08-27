@@ -110,18 +110,18 @@
 					text-align: center;
 				}
 			/*/JUEGO/*/
-				#game th{
+				#game #titulo{
 					font-size: 40px;
 					text-align: center;
 				}
-				#game td{
+				#game .textBack{
 					text-align: justify;
 					font-size: 20px;
 				}
-				#game td#valor{
+				#game #valor{
 					text-align: center;
 				}
-				#game td#extra{
+				#game #extra{
 					text-align: center;
 				}
 				#game #precio{
@@ -225,6 +225,9 @@
 					position: relative;
 					bottom: -5px;
 					right: 10px;
+				}
+				img{
+					vertical-align: middle;
 				}
 			/*/NAV/*/
 				nav{
@@ -372,25 +375,26 @@
 					padding: 0;
 				}
 			/*/JUEGO/*/
-				#game table{
+				#game #cont{
 					margin: 20px;
 				}
-				#game td#img{
+				#game #img{
 					margin: 0;
 					padding: 0;
 				}
-				#game td#img img{
+				#game #img img{
 					vertical-align: middle;
+					display: inline-block;
 				}
-				#game th{
+				#game #title{
 					padding-left: 20px;
 					vertical-align: middle;
 				}
-				#game td#info, #game #tag{
+				#game #info, #game #tag{
 					padding: 10px;	
 					vertical-align: middle;
 				}
-				#game td#valor input[type=submit]{
+				#game #valor input[type=submit]{
 					margin-left: 10%;
 				}
 				#game #act{
@@ -398,7 +402,7 @@
 					margin: 0;
 					display: flex;
 				}
-				#game td#act ul{
+				#game #act ul{
 					margin: 0;
 					padding: 0;
 					list-style: none;
@@ -409,15 +413,7 @@
 				#game #act li.me{
 					margin-left: 3px;
 				}
-				#game #act img{
-					vertical-align: middle;
-				}
-				#game td#extra img{
-					margin-right: 10px;
-					margin-left: 10%;
-					vertical-align: middle;
-				}
-				#game td#minfo{
+				#game #minfo{
 					padding: 10px;
 					padding-top: 20px;
 					padding-bottom: 20px;
@@ -432,6 +428,19 @@
 				}
 				#game #tag{
 					vertical-align: top;
+				}
+				#game #imgtexto{
+					display: block;
+				}
+				#game #imagenes{
+					display: inline-block;
+				}
+				#game #descrip{
+					display: inline-block;
+				}
+				#game #extras{
+					display: flex;
+
 				}
 			/*/CONTACTO/*/
 				#contact .formBack{
@@ -695,16 +704,47 @@
 					max-height: 60px;
 				}
 			/*/JUEGO/*/
-				#game table{
+				#game #cont{
 					border-collapse: separate;
 					border-spacing: 5px;
 				}
-				#game td#act ul{
-					width: 450px;
-					height: 60px;
+				#game #imagenes{
+					width: 50%;
+				}
+				#game #img{
+					width: 100%;
+					height: auto;
+				}
+				#game #img img{
+					width: 100%;
+					height: auto;
+				}
+				#game #act ul{
+					width: 100%;
+					height: auto;
 				}
 				#game article{
 					border-radius: 10px;
+				}
+				#game #descrip{
+					width: 49.7%;
+					height: 100%
+				}
+				#game #info{
+					height: 100%;
+				}
+				#game #extras{
+					width: 100%;
+					height: 100%;
+				}
+				#game #tag{
+					width: 50%;
+				}
+				#game #eprecio{
+					width: 50%;
+				}
+				#game #extra{
+					width: 50%;
 				}
 			/*/CONTACTO/*/
 				#contact .formBack{
@@ -1317,8 +1357,8 @@
 				/*/JUEGOS/*/
 					#games td#img{
 						border: 0px;
-						width: 280px;
-						height: 155px;
+						width: 50%;
+						height: auto;
 					}
 					#games article{
 						border-radius: 10px;
