@@ -11,7 +11,6 @@
 
 				--fore-color-1: #FFF;
 				--fore-color-2: #777;
-
 			/*/TIPOGRAFÍA/*/
 				--font-1: Corbel;
 		}
@@ -805,7 +804,7 @@
 				display: none;
 		}
 /*/TABLET/*/
-	@media (max-width: 1366px) {
+	@media only (max-width: 1366px) {
 		/*/PÁGINA/*/
 			/*/TIPOGRAFÍAS/*/
 				/*/JUEGO/*/
@@ -861,71 +860,9 @@
 					}
 	}
 /*/CELULAR/*/
-	@media (max-width:480px) {
-	/*	/*/VARIABLES/*/
-			html{
-				/*/COLOR/*/
-					--back-color-1: #000;
-					--back-color-2: #222;
-					--back-color-3: #333;
-					--back-color-4: #444;
-					--back-color-5: #111;
-					--back-color-6: #777;
-
-					--fore-color-1: #FFF;
-					--fore-color-2: #777;
-
-				/*/TIPOGRAFÍA/*/
-					--font-1: Corbel;
-			}
+	@media (max-width: 680px;) {
 		/*/PÁGINA/*/
-			/*/COLORES/*/
-				body{
-					background-color: var(--back-color-4);
-					color: var(--fore-color-1);
-				}
-				nav{
-					background-color: var(--back-color-1);
-				}
-				nav input[type=text]{
-					background-color:  var(--back-color-4);
-					color:  var(--fore-color-2);
-				}
-				nav input[type=submit]{
-					background-color:  var(--back-color-4);
-				}
-				nav #usrList{
-					background-color:  var(--back-color-5);
-				}
-				footer{
-					background-color: var(--back-color-1);
-				}
-				.formBack{
-					background-color: var(--back-color-1);
-				}
-				.articleBack{
-					background-color:  var(--back-color-3);
-				}
-				.textBack{
-					background-color:  var(--back-color-2);
-				}
-				a{
-					color: var(--fore-color-1);
-				}
 			/*/TIPOGRAFÍAS/*/
-				/*/TODO/*/
-					body{
-						font-family: var(--font-1);
-					}
-					footer{
-						text-align: right;
-					}
-					.formBack{
-						text-align: left;
-					}
-					.textBack{
-						text-align: justify;
-					}
 				/*/NAV/*/
 					nav input[type=text]{
 						font-size: 20px;
@@ -1067,26 +1004,6 @@
 						font-size: 25px;
 					}
 			/*/POSISIONAMIENTO/*/
-				/*/TODO/*/
-					body{
-						margin: 0;
-					}
-					main{
-						margin-top: 54px;
-						margin-bottom: 30px;
-					}
-					footer{
-						position: fixed;
-						bottom: 0px;
-						left: 0px;
-						margin: 0px;
-						z-index: 9999;
-					}
-					footer span{
-						position: relative;
-						bottom: -5px;
-						right: 10px;
-					}
 				/*/NAV/*/
 					nav{
 						position: fixed;
@@ -1462,15 +1379,9 @@
 						padding: 10px;
 					}
 			/*/TAMAÑOS/*/
-				/*/TODO/*/
-					footer{
-						width: 100%;
-						height: 4%;
-					}
 				/*/NAV/*/
 					nav{
-						width: 100%;
-						height: 54px;
+						height: 130px;
 					}
 					nav .wrap{
 						width: 100%;
@@ -1663,8 +1574,4 @@
 					#mygames article{
 						border-radius: 10px;
 					}
-			/*/OTROS/*/
-				::-webkit-scrollbar{
-					display: none;
-			}*/
 	}
