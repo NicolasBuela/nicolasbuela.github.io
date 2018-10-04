@@ -111,12 +111,15 @@
 				}
 			/*/JUEGO/*/
 				#game #titulo{
-					font-size: 40px;
+					font-size: 300%;
 					text-align: center;
 				}
 				#game .textBack{
 					text-align: justify;
-					font-size: 20px;
+					font-size: 100%;
+				}
+				#game #info{
+					font-size: 89%;
 				}
 				#game #valor{
 					text-align: center;
@@ -125,11 +128,8 @@
 					text-align: center;
 				}
 				#game #precio{
-					font-size: 25px;
+					font-size: 80%;
 					text-align: center;
-				}
-				#game #tag{
-					font-size: 15px;
 				}
 			/*/CONTACTO/*/
 				#contact .formBack{
@@ -305,6 +305,7 @@
 					z-index: 1;
 				}
 				nav #usrList{
+					margin-top: 4px;
 					padding-bottom: 5px;
 					display: none;
 					justify-content: flex-start;
@@ -343,36 +344,30 @@
 					position: relative;
 					top: 20px;
 				}
-				#games table{
-					position: relative;
-					left: 5px;
-					top: 5px;
-					margin-right: 10px;
-					margin-bottom: 10px;
-				}
-				#games th{
-					padding-left: 20px;
-					padding-bottom: 10px;
-				}
-				#games td#img{
-					margin: 0px;
-					padding: 0px;
-					background-repeat: no-repeat;
-				}
-				#games td#img img, #games #ver img{
-					vertical-align: middle;
-				}
-				#games td.textBack{
-					padding: 10px;
-				}
 				#games article{
 					margin: 20px;
 					margin-bottom: 47px;
 					padding: 10px;
 				}
-				#games #ver{
-					margin: 0;
-					padding: 0;
+				#games #titulo{
+					padding-left: 20px;
+					padding-bottom: 10px;
+				}
+				#games {
+					padding: 10px;
+				}
+				#games #juego{
+					padding: 10px;
+					display: flex;
+					flex-direction: row;
+				}
+				#games #description{
+					display: flex;
+					flex-direction: column;
+				}
+				#games #top{
+					display: flex;
+					flex-direction: row;
 				}
 			/*/JUEGO/*/
 				#game #cont{
@@ -388,10 +383,6 @@
 				}
 				#game #title{
 					padding-left: 20px;
-					vertical-align: middle;
-				}
-				#game #info, #game #tag{
-					padding: 10px;	
 					vertical-align: middle;
 				}
 				#game #valor input[type=submit]{
@@ -426,21 +417,37 @@
 					margin-bottom: 47px;
 					padding: 10px;
 				}
-				#game #tag{
-					vertical-align: top;
-				}
 				#game #imgtexto{
-					display: block;
+					display: flex;
+					flex-direction: row;
 				}
 				#game #imagenes{
-					display: inline-block;
+					display: flex;
+					flex-direction: column;
+					padding: 10px;
 				}
 				#game #descrip{
-					display: inline-block;
+					display: flex;
+					flex-direction: column;
 				}
 				#game #extras{
 					display: flex;
-
+					flex-direction: row;
+				}
+				#game #precio, #game #extra{
+					margin: auto;
+				}
+				#game #valor form{
+					margin-top: 23px;
+				}
+				#game #info{
+					padding: 25px;
+					display: flex;
+					flex-direction: row;
+				}
+				#game #titulo{
+					padding-top: 10px;
+					padding-bottom: 10px;
 				}
 			/*/CONTACTO/*/
 				#contact .formBack{
@@ -678,7 +685,7 @@
 					height: auto;
 				}
 				#index .juegosHijo{
-					width: 24.6%;
+					width: 24.5%;
 					height: auto;
 				}
 				#index img{
@@ -686,22 +693,33 @@
 					height: auto;
 				}
 			/*/JUEGOS/*/
-				#games td#img{
-					border: 0px;
-					width: 280px;
-					height: 155px;
-				}
 				#games article{
 					border-radius: 10px;
 				}
+				#games #img img{
+					width: 100%;
+					height: auto;
+				}
+				#games #img{
+					width: 25%;
+					height: auto;
+				}
+				#games #description{
+					width: 75%;
+					height: all;
+				}
+				#games #top{
+					width: 100%;
+				}
+				#games #nombre{
+					width: 50%;
+				}
 				#games #precio{
-					width: 70px;
+					width: 12.5%;
 				}
 				#games #ver{
-					width: 100px;
-					height: 60px;
-					min-height: 60px;
-					max-height: 60px;
+					width: auto;
+					height: auto;
 				}
 			/*/JUEGO/*/
 				#game #cont{
@@ -709,42 +727,50 @@
 					border-spacing: 5px;
 				}
 				#game #imagenes{
-					width: 50%;
+					width: 33.33%;
 				}
 				#game #img{
 					width: 100%;
 					height: auto;
+					margin-bottom: 5px;
 				}
 				#game #img img{
 					width: 100%;
-					height: auto;
 				}
 				#game #act ul{
 					width: 100%;
-					height: auto;
 				}
 				#game article{
 					border-radius: 10px;
 				}
 				#game #descrip{
-					width: 49.7%;
-					height: 100%
+					width: 66.66%;
+					height: all;
 				}
 				#game #info{
-					height: 100%;
+					height: 50%;
+				}
+				#game #listaA{
+					width: 33.33%;
+				}
+				#game #listaB{
+					width: 33.33%;
+				}
+				#game #listaC{
+					width: 33.33%;
 				}
 				#game #extras{
 					width: 100%;
-					height: 100%;
+					height: 25%;
 				}
-				#game #tag{
-					width: 50%;
-				}
-				#game #eprecio{
+				#game #precio{
 					width: 50%;
 				}
 				#game #extra{
 					width: 50%;
+				}
+				#game #valor{
+					height: 25%;
 				}
 			/*/CONTACTO/*/
 				#contact .formBack{
@@ -857,7 +883,7 @@
 			::-webkit-scrollbar{
 				display: none;
 		}
-/*/TABLET/*/
+/*/TABLET 1366/*/
 	@media (max-width: 1366px) {
 		/*/PÁGINA/*/
 			/*/TIPOGRAFÍAS/*/
@@ -912,6 +938,42 @@
 				/*/CONTACTO/*/
 					#contact .formBack{
 						width: 60%;
+					}
+	}
+/*/TABLET 1034/*/
+	@media (max-width: 1034px) {
+		/*/PÁGINA/*/
+			/*/TAMAÑOS/*/
+				/*/INDEX/*/
+					#index .juegosHijo{
+						width: 100%;
+					}
+	}
+/*/TABLET 788/*/
+	@media (max-width: 788px) {
+		/*/PÁGINA/*/
+			/*/TAMAÑOS/*/
+				/*/INDEX/*/
+					#index .juegosHijo{
+						width: 100%;
+					}
+	}
+/*/TABLET 743/*/
+	@media (max-width: 743px) {
+		/*/PÁGINA/*/
+			/*/TAMAÑOS/*/
+				/*/INDEX/*/
+					#index .juegosHijo{
+						width: 100%;
+					}
+	}
+/*/TABLET 622/*/
+	@media (max-width: 622px) {
+		/*/PÁGINA/*/
+			/*/TAMAÑOS/*/
+				/*/INDEX/*/
+					#index .juegosHijo{
+						width: 100%;
 					}
 	}
 /*/CELULAR/*/

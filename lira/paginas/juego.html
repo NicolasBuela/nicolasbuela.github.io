@@ -4,28 +4,28 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Lira</title>
-		<link rel="stylesheet" type="text/css" href="../sfx/styles.css">
-		<script src="../jfx/scripts.js"></script>
+		<link rel="stylesheet" type="text/css" href="../styles/styles.css">
+		<script src="../js/scripts.js"></script>
 	</head>
 	<body>
 		<nav>
 			<ul id="menu">
 				<li>
-					<img src="../vfx/menu.png">
+					<img src="../media/menu.png">
 					<ul class="ul">
 						<li class="leftItem">
 							<a href="../index.html">
-								<img src="../vfx/logo.png" alt="Logo">
+								<img src="../media/logo.png" alt="Logo">
 							</a>
 						</li>
 						<li class="leftItem">
 							<a href="juegos.html">
-								<img src="../vfx/btn1.png" alt="Juegos">
+								<img src="../media/btn1.png" alt="Juegos">
 							</a>
 						</li>
 						<li class="leftItem">
 							<a href="contacto.html">
-								<img src="../vfx/btn2.png" alt="Contacto">
+								<img src="../media/btn2.png" alt="Contacto">
 							</a>
 						</li>
 						<li class="wrap">
@@ -33,11 +33,11 @@
 								<input type="text" name="search" placeholder="Buscar...">
 								<input type="submit" value="">
 							</form>
-							<img src="../vfx/lupa.png">
+							<img src="../media/lupa.png">
 						</li>
 						<li id="usuario">
 							<a href="login.html">
-								<img src="../vfx/btn3.png" id="login" alt="Login">
+								<img src="../media/btn3.png" id="login" alt="Login">
 							</a>
 							<ul id="usrList">
 								<li>
@@ -74,11 +74,11 @@
 				<div id="cont">
 					<div class="textBack" id="titulo">Nombre del Juego</div>
 					<div id="imgtexto">
-						<div id="imagenes">
-							<div id="img">
+						<div class="textBack" id="imagenes">
+							<div class="textBack" id="img">
 								<img src="http://via.placeholder.com/500x300">
 							</div>
-							<div id="act">
+							<div class="textBack" id="act">
 								<button><</button>
 								<ul>
 									<li>
@@ -118,14 +118,34 @@
 								<button>></button>
 							</div>
 						</div>
-						<div id="descrip">
+						<div class="textBack" id="descrip">
 							<div class="textBack" id="info">
-								Descripción: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</div>
-							<div id="extras">
-								<div class="textBack" id="tag">
-									Tags: #GeneroDelJuego
+								<div id="listaA">
+									<dl>
+										<dt>Género:</dt>
+										<dd>GeneroDelJuego</dd>
+										<dt>Requerimientos:</dt>
+										<dd>RequerimientosDelJuego</dd>
+									</dl>
 								</div>
+								<div id="listaB">
+									<dl>
+										<dt>Creador:</dt>
+										<dd>NombreDeLaEmpresa</dd>
+										<dt>Día de salida:</dt>
+										<dd>Fecha(DD/MM/AAAA)</dd>
+									</dl>
+								</div>
+								<div id="listaC">
+									<dl>
+										<dt>Tamaño:</dt>
+										<dd>PesoEnGBoMBDelJuego</dd>
+										<dt>Lenguages:</dt>
+										<dd>LenguagesDelJuego</dd>
+									</dl>
+								</div>
+							</div>
+							<div class="textBack" id="extras">
 								<div class="textBack" id="precio">
 									$XXXX
 								</div>

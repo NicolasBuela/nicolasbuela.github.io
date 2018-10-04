@@ -4,28 +4,28 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Lira</title>
-		<link rel="stylesheet" type="text/css" href="../sfx/styles.css">
-		<script src="../jfx/scripts.js"></script>
+		<link rel="stylesheet" type="text/css" href="../styles/styles.css">
+		<script src="../js/scripts.js"></script>
 	</head>
 	<body>
 		<nav>
 			<ul id="menu">
 				<li>
-					<img src="../vfx/menu.png">
+					<img src="../media/menu.png">
 					<ul class="ul">
 						<li class="leftItem">
 							<a href="../index.html">
-								<img src="../vfx/logo.png" alt="Logo">
+								<img src="../media/logo.png" alt="Logo">
 							</a>
 						</li>
 						<li class="leftItem">
 							<a href="juegos.html">
-								<img src="../vfx/btn1.png" alt="Juegos">
+								<img src="../media/btn1.png" alt="Juegos">
 							</a>
 						</li>
 						<li class="leftItem">
-							<a href="contacto.html">
-								<img src="../vfx/btn2.png" alt="Contacto">
+							<a href="#">
+								<img src="../media/btn2.png" alt="Contacto">
 							</a>
 						</li>
 						<li class="wrap">
@@ -33,11 +33,11 @@
 								<input type="text" name="search" placeholder="Buscar...">
 								<input type="submit" value="">
 							</form>
-							<img src="../vfx/lupa.png">
+							<img src="../media/lupa.png">
 						</li>
 						<li id="usuario">
 							<a href="login.html">
-								<img src="../vfx/btn3.png" id="login" alt="Login">
+								<img src="../media/btn3.png" id="login" alt="Login">
 							</a>
 							<ul id="usrList">
 								<li>
@@ -69,21 +69,23 @@
 				</li>
 			</ul>
 		</nav>
-		<main id="edit">
-			<center>
-				<div class="formBack">
-					<form>
-						<span id="titulo">Cambiar Contraseña</span><br>
-						<input type="password" name="Contraseña" placeholder="Contraseña" id="A" required>
-						<br>
-						<input type="password" name="Nueva Contraseña" placeholder="Nueva Contraseña" maxlength="24" minlength="8" pattern="[A-Za-z0-9]" id="B" required>
-						<br>
-						<input type="password" name="Repita la Contraseña" placeholder="Repita la Contraseña" id="C" required>
-						<br>
-						<input type="submit" name="Enviar">
-					</form>
-				</div>
-			</center>
+		<main id="contact">
+			<div class="formBack">
+				<form>
+					<div id="titulo">Contacto</div>
+					<br>
+					<div id="inputs">
+						<input type="email" name="E-mail" placeholder="E-mail" required>
+						<input type="text" name="Nombre" placeholder="Nombre">
+					</div>
+					<br>
+					<div id="area">
+						<textarea rows="15" cols="60" name="Comentarios" required placeholder="Ingrese su Consulta o Petición..."></textarea>
+					</div>
+					<br>
+					<input type="submit" name="Enviar" value="Enviar">
+				</form>
+			</div>
 		<footer>
 			<span>
 				// © Copyright, All Rights Reserved //
