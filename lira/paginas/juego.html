@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Lira</title>
 		<link rel="stylesheet" type="text/css" href="../styles/styles.css">
+		<script src="../js/tboi.js"></script>
 		<script src="../js/scripts.js"></script>
 	</head>
 	<body>
@@ -46,21 +47,6 @@
 									</a>
 								</li>
 								<li>
-									<a href="wishlist.html">
-										Lista de deseos
-									</a>
-								</li>
-								<li>
-									<a href="carrito.html">
-										Mi Carrito
-									</a>
-								</li>
-								<li>
-									<a href="misjuegos.html">
-										Mis Juegos
-									</a>
-								</li>
-								<li>
 									Cerrar Sesión
 								</li>
 							</ul>
@@ -84,35 +70,34 @@
 								<button>></button>
 							</div>
 						</div>
-						<div class="textBack" id="minfo">
-						</div>
 						<div class="textBack" id="descrip">
 							<div class="textBack" id="info">
-								<div id="listaA">
-									<dl>
-										<dt>Género:</dt>
-										<dd id="genero">GeneroDelJuego</dd>
-										<dt>Lenguages:</dt>
-										<dd id="lenguages">LenguagesDelJuego</dd>
-									</dl>
-								</div>
-								<div id="listaB">
-									<dl>
-										<dt>Creador:</dt>
-										<dd id="nombreCreador"></dd>
-										<dt>Día de salida:</dt>
-										<dd id="fechaSalida"></dd>
-									</dl>
+								<div class="textBack" class="minfo" id="info-landscape"></div>
+								<div id="atributos">
+									<div id="listaA">
+										<dl>
+											<dt>Género:</dt>
+											<dd id="genero"></dd>
+											<dt>Lenguages:</dt>
+											<dd id="lenguages"></dd>
+										</dl>
+									</div>
+									<div id="listaB">
+										<dl>
+											<dt>Creador:</dt>
+											<dd id="nombreCreador"></dd>
+											<dt>Día de salida:</dt>
+											<dd id="fechaSalida"></dd>
+										</dl>
+									</div>
 								</div>
 							</div>
 							<div class="textBack" id="extras">
 								<div class="textBack" id="precio"></div>
 								<div class="textBack" id="extra">
-									<form>
-										<input type="submit" name="Comprar" value="Comprar">
-										<input type="submit" name="Añadir a mi Lista de deseados" value="<3">
-										<input type="submit" name="Mantenme informado" value="Seguir">
-									</form>
+									<a href="comprar.html">
+										<button>Comprar</button>
+									</a>
 								</div>
 							</div>
 							<div class="textBack" id="valor">
@@ -127,9 +112,11 @@
 									<input type="radio" name="valoration" value="8"> 8
 									<input type="radio" name="valoration" value="9"> 9
 									<input type="radio" name="valoration" value="10"> 10
+									<span id="valoracion"></span>
 									<input type="submit" name="valoration">
 								</form>
 							</div>
+							<div class="textBack" class="minfo" id="info-portrait"></div>
 						</div>
 					</div>
 				</div>

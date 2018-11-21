@@ -102,12 +102,18 @@
 					border-bottom: none;
 				}
 			/*/JUEGOS/*/
-				#games th{
-					font-size: 25px;
+				#games #titulo{
+					font-size: 200%;
 				}
 				#games #precio{
-					font-size: 18px;
+					font-size: 150%;
 					text-align: center;
+				}
+				#games #nombre{
+					font-size: 150%;
+				}
+				#games .info-derecha{
+					text-align: right;
 				}
 			/*/JUEGO/*/
 				#game #titulo{
@@ -190,22 +196,30 @@
 				#edit input{
 					font-size: 60%;
 				}
-			/*/WISHLIST/*/
-				#wish th{
-					font-size: 25px;
-				}
-			/*/CARRITO/*/
-				#carrito th{
-					font-size: 25px;
-				}
-				#carrito td#comprar{
+			/*/COMPRAR/*/
+				#buy .formBack{
 					text-align: right;
 				}
-			/*/MISJUEGOS/*/
-				#mygames th{
-					font-size: 25px;
+				#buy #titulamen{
+					font-size: 280%;
+					text-align: center;
 				}
-		/*/POSISIONAMIENTO/*/
+				#buy #inputs{
+					text-align: left;
+				}
+				#buy input[type=text], #buy input[type=email], #buy input[type=number]{
+					font-size: 100%
+				}
+				#buy select{
+					font-size: 100%
+				}
+				#buy #area textarea{
+					font-size: 150%
+				}
+				#buy #principal{
+					text-align: left;
+				}
+		/*/POSICIONAMIENTO/*/
 			/*/TODO/*/
 				body{
 					margin: 0;
@@ -369,6 +383,21 @@
 					display: flex;
 					flex-direction: row;
 				}
+				#games #nombre{
+					padding: 10px;
+					padding-left: 20px;
+				}
+				#games .info-derecha{
+					display: flex;
+					flex-direction: row;
+					justify-content: flex-end;
+				}
+				#games #precio{
+					padding: 10px;
+				}
+				#games #bot{
+					padding: 20px;
+				}
 			/*/JUEGO/*/
 				#game #cont{
 					margin: 20px;
@@ -404,7 +433,7 @@
 				#game #act li.me{
 					margin-left: 3px;
 				}
-				#game #minfo{
+				#game .minfo #info-portrait{
 					padding: 10px;
 					padding-top: 20px;
 					padding-bottom: 20px;
@@ -430,6 +459,9 @@
 					display: flex;
 					flex-direction: column;
 				}
+				#game .minfo #info-landscape{
+					display: block;
+				}
 				#game #extras{
 					display: flex;
 					flex-direction: row;
@@ -442,6 +474,10 @@
 				}
 				#game #info{
 					padding: 25px;
+					display: flex;
+					flex-direction: column;
+				}
+				#game #atributos{
 					display: flex;
 					flex-direction: row;
 				}
@@ -530,98 +566,57 @@
 					transform: translate(-50%, -50%);
 					padding: 30px;
 				}
-			/*/WISHLIST/*/
-				#wish{
-					position: relative;
-					top: 20px;
+			/*/COMPRAR/*/
+				#buy .formBack{
+					position: fixed;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					padding: 50px;
 				}
-				#wish table{
-					position: relative;
-					left: 5px;
-					top: 5px;
-					margin-right: 10px;
-					margin-bottom: 10px;
-				}
-				#wish th{
-					padding-left: 20px;
-					padding-bottom: 10px;
-				}
-				#wish td#img, #wish #nope{
+				#buy #titulamen{
 					margin: 0px;
 					padding: 0px;
+					padding-top: 10px;
 				}
-				#wish td#img img{
-					vertical-align: middle;
+				#buy #inputs{
+					margin-top: -10px;
 				}
-				#wish td.textBack{
-					padding: 10px;
+				#buy input{
+					margin-left: 100px;
 				}
-				#wish article{
-					margin: 20px;
-					margin-bottom: 47px;
-					padding: 10px;
+				#buy #cantidad{
+					margin-left: 103px;
 				}
-			/*/CARRITO/*/
-				#carrito{
-					position: relative;
-					top: 20px;
+				#buy #nombre{
+					margin-left: 108px;
 				}
-				#carrito table{
-					position: relative;
-					left: 5px;
-					top: 5px;
-					margin-right: 10px;
-					margin-bottom: 10px;
+				#buy #email{
+					margin-left: 120px;
 				}
-				#carrito th{
-					padding-left: 20px;
-					padding-bottom: 10px;
+				#buy select{
+					margin-left: 150px;
 				}
-				#carrito td#img, #carrito #nope{
-					margin: 0px;
-					padding: 0px;
+				#buy #metodo{
+					margin-left: 139px;
 				}
-				#carrito td#img img{
-					vertical-align: middle;
+				#buy #envio{
+					margin-left: 150px;
 				}
-				#carrito td.textBack{
-					padding: 10px;
+				#buy #fisico,#buy #digital{
+					margin-left: 115px;
 				}
-				#carrito article{
-					margin: 20px;
-					margin-bottom: 47px;
-					padding: 10px;
+				#buy .desgloce{
+					margin-left: 300px;
 				}
-			/*/MISJUEGOS/*/
-				#mygames{
-					position: relative;
-					top: 20px;
+				#buy #area{
+					margin-top: -10px;
+					margin-bottom: -10px;
+					display: flex;
 				}
-				#mygames table{
-					position: relative;
-					left: 5px;
-					top: 5px;
-					margin-right: 10px;
-					margin-bottom: 10px;
-				}
-				#mygames th{
-					padding-left: 20px;
-					padding-bottom: 10px;
-				}
-				#mygames td#img, #mygames #nope{
-					margin: 0px;
-					padding: 0px;
-				}
-				#mygames td#img img{
-					vertical-align: middle;
-				}
-				#mygames td.textBack{
-					padding: 10px;
-				}
-				#mygames article{
-					margin: 20px;
-					margin-bottom: 3%;
-					padding: 10px;
+				#buy #todo{
+					display: flex;
+					flex-direction: row;
 				}
 		/*/TAMAÑOS/*/
 			/*/TODO/*/
@@ -710,16 +705,20 @@
 				}
 				#games #top{
 					width: 100%;
+					height: auto;
 				}
 				#games #nombre{
 					width: 50%;
 				}
-				#games #precio{
-					width: 12.5%;
+				#games .info-derecha{
+					width: 50%;
 				}
-				#games #ver{
-					width: auto;
-					height: auto;
+				#games #precio{
+					width: 24%;
+				}
+				#games #ver button{
+					width: 100px;
+					height: 60px;
 				}
 			/*/JUEGO/*/
 				#game #cont{
@@ -750,13 +749,13 @@
 				#game #info{
 					height: 50%;
 				}
+				#game #info-landscape{
+					width: 100%;
+				}
 				#game #listaA{
 					width: 33.33%;
 				}
 				#game #listaB{
-					width: 33.33%;
-				}
-				#game #listaC{
 					width: 33.33%;
 				}
 				#game #extras{
@@ -771,6 +770,10 @@
 				}
 				#game #valor{
 					height: 25%;
+				}
+				.imagenJuego{
+					width: 100px;
+					height: 50px;
 				}
 			/*/CONTACTO/*/
 				#contact .formBack{
@@ -840,49 +843,25 @@
 				#edit input[type=submit]{
 					width: auto;
 				}
-			/*/WISHLIST/*/
-				#wish td#img{
-					width: 280px;
-					height: 155px;
-					border: 0px;
-				}
-				#wish #nope{
-					width: 60px;
-					height: 60px;
-				}
-				#wish article{
+			/*/COMPRAR/*/
+				#buy .formBack{
+					width: 80%;
+					height: auto;
 					border-radius: 10px;
 				}
-			/*/CARRITO/*/
-				#carrito td#img{
-					width: 280px;
-					height: 155px;
-					border: 0px;
+				#buy input[type=text], input[type=email], input[type=number]{
+					width: 50%;
+					height: auto;
 				}
-				#carrito #nope{
-					width: 60px;
-					height: 60px;
-				}
-				#carrito article{
-					border-radius: 10px;
-				}
-			/*/MISJUEGOS/*/
-				#mygames td#img{
-					width: 280px;
-					height: 155px;
-					border: 0px;
-				}
-				#mygames #nope{
-					width: 60px;
-					height: 60px;
-				}
-				#mygames article{
-					border-radius: 10px;
+				#buy textarea{
+					width: 100%;
+					height: auto;
+					resize: none;
 				}
 		/*/OTROS/*/
 			::-webkit-scrollbar{
 				display: none;
-		}
+			}
 /*/TABLET 1366/*/
 	@media (max-width: 1366px) {
 		/*/PÁGINA/*/
@@ -1152,37 +1131,12 @@
 						padding: 0px;
 					}
 				/*/JUEGOS/*/
-					#games table{
-						position: relative;
-						left: 5px;
-						top: 5px;
-						margin-right: 10px;
-						margin-bottom: 10px;
+					div#description .textBack{
+						display: none;
 					}
-					#games th{
-						padding-left: 20px;
-						padding-bottom: 10px;
-					}
-					#games td#img{
-						margin: 0px;
-						padding: 0px;
-						background-repeat: no-repeat;
-					}
-					#games td#img img, #games #ver img{
-						vertical-align: middle;
-					}
-					#games td.textBack{
-						padding: 10px;
-					}
-					#games article{
-						margin: 20px;
-						margin-bottom: 47px;
-						padding: 10px;
-					}
-					#games #ver{
-						margin: 0;
-						padding: 0;
-					}
+					/*#game #description, #top, #bot, #nombre, #precio, .info-derecha, #ver{
+						display: none;
+					}*/
 				/*/JUEGO/*/
 					#game table{
 						margin: 20px;
@@ -1417,22 +1371,8 @@
 						height: auto;
 					}
 				/*/JUEGOS/*/
-					#games td#img{
-						border: 0px;
-						width: 50%;
-						height: auto;
-					}
-					#games article{
-						border-radius: 10px;
-					}
-					#games #precio{
-						width: 70px;
-					}
-					#games #ver{
-						width: 100px;
-						height: 60px;
-						min-height: 60px;
-						max-height: 60px;
+					#img{
+						width: 400px;
 					}
 				/*/JUEGO/*/
 					#game table{
